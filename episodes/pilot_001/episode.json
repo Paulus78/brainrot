@@ -2,7 +2,7 @@
   "episode_id": "pilot_001",
   "source_episode": "sources/PILOT_EPISODE.md",
   "title": "Bongo fixes a fan",
-  "status": "video_generation_in_progress",
+  "status": "final_candidate_exported",
   "format": {
     "aspect_ratio": "9:16",
     "target_duration_seconds": 12
@@ -18,7 +18,7 @@
     {
       "id": "shot_01",
       "purpose": "problem",
-      "edit_seconds": 2.0,
+      "edit_seconds": 2.5,
       "voice": ["Bongo… no no no."],
       "keyframe": "episodes/pilot_001/keyframes/shot_01_problem.png",
       "video_prompt": "Bongo stays in place and looks from the completely motionless desk fan to the yellow bucket. He tilts his head once; his oversized ears make one soft delayed bounce. The fan remains off. Static eye-level camera, subtle motion only, preserve every character, bucket, fan and background detail exactly, no lip sync.",
@@ -52,13 +52,13 @@
     {
       "id": "shot_04",
       "purpose": "reveal",
-      "edit_seconds": 5.0,
+      "edit_seconds": 4.5,
       "voice": ["OOOOOO… perfecto.", "Bongo fixo."],
       "keyframe": "episodes/pilot_001/keyframes/shot_04_reveal.png",
       "video_prompt": "The banana propeller attached to the fan hub starts and spins rapidly like a working fan. A strong but comedic air stream pushes Bongo's oversized ears and soft fuzz gently backward. Bongo remains planted, calm and proud. The yellow bucket stays still. Static camera, no camera shake, no new objects, preserve all designs exactly. Leave a clear quiet beat before the dry final line.",
-      "qc_status": "WARN",
-      "video": "episodes/pilot_001/video_raw/shot_04_reveal_veo_attempt_02.mp4",
-      "video_qc_note": "Accepted as the stable silent motion base; minor head-banana drift remains. A voiced Omni variant is downloaded for final voice/visual comparison."
+      "qc_status": "PASS",
+      "video": "episodes/pilot_001/video_raw/shot_04_reveal_omni_voice_attempt_04.mp4",
+      "video_qc_note": "Accepted fourth Omni custom-voice attempt: the banana propeller spins clearly, Bongo and the set remain stable, and two separated voice regions deliver the scripted reveal and dry final beat."
     }
   ],
   "flow": {
@@ -67,7 +67,16 @@
     "image_mode_verified_cost": "0 credits",
     "video_minimum_verified_cost": "4 credits per 4-second 360p clip",
     "video_generation_started": true,
-    "credits_used_so_far": 28,
+    "credits_used_so_far": 32,
     "custom_voice": "Flow custom voice based on Algieba; warm, slightly nasal, lightly raspy, natural and dry"
+  },
+  "final_output": {
+    "file": "output/pilot_001/pilot_001_final.mp4",
+    "editorial_duration_seconds": 12.0,
+    "container_duration_seconds": 12.022,
+    "resolution": "360x640",
+    "frame_rate": 24,
+    "audio": "AAC stereo, 48 kHz",
+    "qc": "PASS with final human listening recommended before publication"
   }
 }

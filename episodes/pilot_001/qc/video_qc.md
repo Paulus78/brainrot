@@ -25,6 +25,20 @@
 |---|---|---|---|
 | 01 | Veo, frames, 360p, 4 s | FAIL | Propeller motion works, but the face, blue eye ring, head banana and arm pose drift too far. |
 | 02 | Veo, frames, 360p, 4 s | WARN / accepted motion base | Character, bucket and camera remain much more stable. Minor head-banana and face-detail drift remains; readable enough for the pilot. |
-| 03 | Omni Flash, ingredients, custom Bongo voice, 360p, 4 s | REVIEW | Natural-voice comparison with the line “Bongo fixo.” is downloaded; retain attempt 02 as the safer silent motion base until final voice/visual comparison. |
+| 03 | Omni Flash, ingredients, custom Bongo voice, 360p, 4 s | WARN / rejected for final | Visually stable propeller take, but the prompt contained only “Bongo fixo.” and therefore omitted the required “OOOOOO… perfecto.” line. |
+| 04 | Omni Flash, ingredients, custom Bongo voice, 360p, 4 s | PASS | Clear rotating banana propeller; Bongo, blue eye ring, single tooth, head banana, one blue left sandal, bucket, fan body, workshop and static camera remain stable. The exact prompt requests both scripted lines with a clear silent beat; the downloaded audio contains two separated voice regions with a 0.79 s pause. |
 
-Verified Flow cost for each 360p / 4-second generation in this session: 4 credits. Total used so far: 28 credits.
+Verified Flow cost for each 360p / 4-second generation in this session: 4 credits. Total used: 32 credits.
+
+## Final assembly
+
+| Check | Result | Notes |
+|---|---|---|
+| Runtime | PASS | 12.000 s editorial timeline; MP4 container reports 12.022 s because of AAC frame padding. |
+| Format | PASS | 360 × 640, 9:16, H.264, 24 fps, AAC stereo at 48 kHz. |
+| Picture | PASS | No black frames; every cut lands on a valid image; final 0.5 s hold gives the catchphrase room to land. |
+| Audio | PASS | Peak −1.1 dBFS; no clipping. Voice remains in front of three restrained bucket accents, a two-note original reveal sting and subtle filtered fan air. |
+| Content | PASS | Problem, Bucketo, three Banga beats and banana-propeller payoff all read in sequence. |
+| Listening | WARN | Automated checks confirm timing, separation and headroom, but a final human listening pass is still recommended before public upload. |
+
+Final candidate: `output/pilot_001/pilot_001_final.mp4`

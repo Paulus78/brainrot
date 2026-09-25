@@ -24,19 +24,22 @@ Updated: 2026-09-25 (Europe/Berlin)
 - Shot 01 animated with the Flow custom voice and accepted after visual/identity QC
 - Shot 03 custom-voice attempt 01 retained as a clean fallback; motion QC is WARN because the three shake beats are not distinct enough
 - Shot 03 custom-voice attempt 02 accepted: three distinct progressively stronger bucket shakes and a centered end pose
+- Shot 04 custom-voice attempt 03 rejected for final because it omits “OOOOOO… perfecto.”
+- Shot 04 custom-voice attempt 04 accepted: stable banana-propeller motion and both scripted voice beats
+- Final 12-second H.264/AAC pilot assembled at 360 × 640 with restrained original bucket hits, reveal sting and fan-air layer
+- Final technical and visual quality gates passed; no black frames or clipping detected
+- Reproducible final edit script added at `src/edit/compose_final.py`
 - All currently downloaded raw video files are stored in the repository-ready project structure
 
 ## Pending
 
-- Final listening comparison for the Flow custom-voice renders; all local system-voice prototypes remain rejected as too robotic
-- Final listening comparison for Shot 03 attempt 02 in the assembled sequence
-- Mix and edit
-- Apply final quality gates and write the postmortem
+- Human listening pass on the assembled MP4 before any public upload
+- Optional 720p upscale only after the voice performance is approved by ear
 
 ## Current constraints
 
-- Local runtime has Python 3.8.4 but no `ffmpeg` or `ffprobe`; macOS `avconvert` is available for trimming/transcoding.
+- The final edit uses an existing local `ffmpeg` binary discovered inside Streamlabs OBS; on another computer install `ffmpeg` or set the `FFMPEG` environment variable.
 - No `OPENAI_API_KEY`, `GOOGLE_API_KEY`, `GEMINI_API_KEY` or `ELEVENLABS_API_KEY` is configured.
 - The OpenAI Sora Videos API was shut down on 2026-09-24 and has no one-to-one replacement API.
 - Flow currently charges 4 credits for one 4-second 360p clip in the active project.
-- Twenty-eight Flow credits have been used so far: two Veo motion attempts, one Omni custom-voice attempt for Shot 04, accepted Omni renders for Shots 01 and 02, and two Shot 03 Omni takes.
+- Thirty-two Flow credits were used: two Veo motion attempts, two Omni custom-voice attempts for Shot 04, accepted Omni renders for Shots 01 and 02, and two Shot 03 Omni takes.
