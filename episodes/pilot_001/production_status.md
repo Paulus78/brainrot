@@ -21,18 +21,21 @@ Updated: 2026-09-25 (Europe/Berlin)
 - Flow custom Bongo voice created from the Algieba preset with warm, lightly raspy, slightly nasal and dry performance direction
 - Shot 02 keyframe generated in Flow at 0 credits and accepted after identity/action QC
 - Shot 02 animated with the natural Flow custom voice and accepted after visual/action QC
+- Shot 01 animated with the Flow custom voice and accepted after visual/identity QC
+- Shot 03 custom-voice attempt 01 rendered and retained as a clean fallback; motion QC is WARN because the three shake beats are not distinct enough
+- All currently downloaded raw video files are stored in the repository-ready project structure
 
 ## Pending
 
 - Final listening comparison for the Flow custom-voice renders; all local system-voice prototypes remain rejected as too robotic
-- Animate only accepted shots
+- Produce and review a stronger Shot 03 take with three clearly separated shake beats
 - Mix and edit
 - Apply final quality gates and write the postmortem
 
 ## Current constraints
 
-- Local runtime has Python 3.8.4 but no `ffmpeg`, `ffprobe` or Node.js.
+- Local runtime has Python 3.8.4 but no `ffmpeg` or `ffprobe`; macOS `avconvert` is available for trimming/transcoding.
 - No `OPENAI_API_KEY`, `GOOGLE_API_KEY`, `GEMINI_API_KEY` or `ELEVENLABS_API_KEY` is configured.
 - The OpenAI Sora Videos API was shut down on 2026-09-24 and has no one-to-one replacement API.
 - Flow currently charges 4 credits for one 4-second 360p clip in the active project.
-- Sixteen Flow credits have been used so far: two Veo motion attempts, one Omni custom-voice attempt for Shot 04 and one accepted Omni custom-voice render for Shot 02.
+- Twenty-four Flow credits have been used so far: two Veo motion attempts, one Omni custom-voice attempt for Shot 04, accepted Omni renders for Shots 01 and 02, and the first Shot 03 Omni take.

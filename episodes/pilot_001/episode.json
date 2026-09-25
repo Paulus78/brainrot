@@ -22,7 +22,9 @@
       "voice": ["Bongo… no no no."],
       "keyframe": "episodes/pilot_001/keyframes/shot_01_problem.png",
       "video_prompt": "Bongo stays in place and looks from the completely motionless desk fan to the yellow bucket. He tilts his head once; his oversized ears make one soft delayed bounce. The fan remains off. Static eye-level camera, subtle motion only, preserve every character, bucket, fan and background detail exactly, no lip sync.",
-      "qc_status": "PASS"
+      "qc_status": "PASS",
+      "video": "episodes/pilot_001/video_raw/shot_01_problem_omni_voice_attempt_01.mp4",
+      "video_qc_note": "Accepted first Omni custom-voice attempt: clear puzzled head tilt and eye movement; fan remains off; Bongo, bucket, fan, framing and workshop remain stable."
     },
     {
       "id": "shot_02",
@@ -43,7 +45,9 @@
       "voice": ["Banga…", "banga…", "BANGA."],
       "keyframe": "episodes/pilot_001/keyframes/shot_03_banga.png",
       "video_prompt": "Bongo grips the yellow smiley bucket securely with both short arms and performs exactly three clean side-to-side shakes: small, medium, strong. His face stays focused and overconfident. The bucket keeps its exact shape and face. Static camera, no prop changes, no new objects, no lip sync.",
-      "qc_status": "PASS"
+      "qc_status": "WARN",
+      "video": "episodes/pilot_001/video_raw/shot_03_banga_omni_voice_attempt_01.mp4",
+      "video_qc_note": "Technically clean and identity-stable, but the requested three progressively stronger bucket shakes are not separated clearly enough. Retained as a documented fallback while a stronger second take is produced."
     },
     {
       "id": "shot_04",
@@ -54,7 +58,7 @@
       "video_prompt": "The banana propeller attached to the fan hub starts and spins rapidly like a working fan. A strong but comedic air stream pushes Bongo's oversized ears and soft fuzz gently backward. Bongo remains planted, calm and proud. The yellow bucket stays still. Static camera, no camera shake, no new objects, preserve all designs exactly. Leave a clear quiet beat before the dry final line.",
       "qc_status": "WARN",
       "video": "episodes/pilot_001/video_raw/shot_04_reveal_veo_attempt_02.mp4",
-      "video_qc_note": "Accepted as the stable silent motion base; minor head-banana drift remains. A voiced Omni variant is rendering for comparison."
+      "video_qc_note": "Accepted as the stable silent motion base; minor head-banana drift remains. A voiced Omni variant is downloaded for final voice/visual comparison."
     }
   ],
   "flow": {
@@ -63,7 +67,7 @@
     "image_mode_verified_cost": "0 credits",
     "video_minimum_verified_cost": "4 credits per 4-second 360p clip",
     "video_generation_started": true,
-    "credits_used_so_far": 16,
+    "credits_used_so_far": 24,
     "custom_voice": "Flow custom voice based on Algieba; warm, slightly nasal, lightly raspy, natural and dry"
   }
 }
