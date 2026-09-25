@@ -1,0 +1,34 @@
+project: bongo_bucket
+episode: pilot_001
+
+format:
+  aspect_ratio: "9:16"
+  master_width: 1080
+  master_height: 1920
+  target_duration_seconds: 12
+
+assets:
+  character_reference: assets/character_master/bongo_reference.png
+
+providers:
+  image:
+    route: google_flow_ui
+    model_label: "Nano Banana 2"
+    verified_cost: "0 Flow credits per image on 2026-09-25"
+  video:
+    route: google_flow_ui
+    model_family: veo
+    minimum_clip_seconds: 4
+    draft_resolution: 360p
+    verified_cost: "8 Flow credits per 4-second 360p clip on 2026-09-25"
+  voice:
+    route: pending
+    preferred_model: gpt-4o-mini-tts
+    api_key_env: OPENAI_API_KEY
+
+generation:
+  max_attempts_per_shot: 3
+  only_animate_accepted_keyframes: true
+  one_primary_action_per_shot: true
+  preserve_reference_identity: true
+

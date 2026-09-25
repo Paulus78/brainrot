@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.bongo-bucket/schemas/episode.schema.json",
+  "title": "Bongo Bucket Episode",
+  "type": "object",
+  "required": ["episode_id", "title", "format", "character_reference", "shots"],
+  "properties": {
+    "episode_id": { "type": "string", "pattern": "^pilot_[0-9]{3}$" },
+    "title": { "type": "string", "minLength": 1 },
+    "format": {
+      "type": "object",
+      "required": ["aspect_ratio", "target_duration_seconds"],
+      "properties": {
+        "aspect_ratio": { "const": "9:16" },
+        "target_duration_seconds": { "type": "number", "minimum": 8, "maximum": 15 }
+      },
+      "additionalProperties": false
+    },
+    "character_reference": { "type": "string", "minLength": 1 },
+    "shots": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["id", "purpose", "edit_seconds", "voice", "keyframe", "video_prompt", "qc_status"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^shot_0[1-4]$" },
+          "purpose": { "type": "string" },
+          "edit_seconds": { "type": "number", "exclusiveMinimum": 0 },
+          "voice": { "type": "array", "items": { "type": "string" } },
+          "keyframe": { "type": ["string", "null"] },
+          "video_prompt": { "type": "string" },
+          "qc_status": { "enum": ["PASS", "WARN", "FAIL", "PENDING"] }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
+

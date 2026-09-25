@@ -1,0 +1,69 @@
+{
+  "episode_id": "pilot_001",
+  "source_episode": "sources/PILOT_EPISODE.md",
+  "title": "Bongo fixes a fan",
+  "status": "video_generation_in_progress",
+  "format": {
+    "aspect_ratio": "9:16",
+    "target_duration_seconds": 12
+  },
+  "character_reference": "assets/character_master/bongo_reference.png",
+  "reference_overrides_character_bible": [
+    "vivid blue ring around the smaller right eye",
+    "exactly one blue slide sandal on the left foot",
+    "large banana peel on top of the head"
+  ],
+  "location": "single warm, simple 3D-cartoon garage workshop",
+  "shots": [
+    {
+      "id": "shot_01",
+      "purpose": "problem",
+      "edit_seconds": 2.0,
+      "voice": ["Bongo… no no no."],
+      "keyframe": "episodes/pilot_001/keyframes/shot_01_problem.png",
+      "video_prompt": "Bongo stays in place and looks from the completely motionless desk fan to the yellow bucket. He tilts his head once; his oversized ears make one soft delayed bounce. The fan remains off. Static eye-level camera, subtle motion only, preserve every character, bucket, fan and background detail exactly, no lip sync.",
+      "qc_status": "PASS"
+    },
+    {
+      "id": "shot_02",
+      "purpose": "bucketo",
+      "edit_seconds": 2.0,
+      "voice": ["Bucketo."],
+      "keyframe": "episodes/pilot_001/keyframes/shot_02_bucketo.png",
+      "video_prompt": "Bongo lowers the single intact banana straight into the open yellow smiley bucket, then gives one tiny self-confident nod. The nearby fan stays still. Static eye-level camera, one action only, preserve Bongo and bucket exactly, no new objects, no lip sync.",
+      "qc_status": "PASS",
+      "generation_route": "Google Flow image mode, Nano Banana 2, 9:16, one output, verified 0 credits",
+      "video": "episodes/pilot_001/video_raw/shot_02_bucketo_omni_voice_attempt_01.mp4",
+      "video_qc_note": "Accepted first Omni custom-voice attempt: one banana enters the bucket, the fan remains off, character identity and camera stay stable."
+    },
+    {
+      "id": "shot_03",
+      "purpose": "banga",
+      "edit_seconds": 3.0,
+      "voice": ["Banga…", "banga…", "BANGA."],
+      "keyframe": "episodes/pilot_001/keyframes/shot_03_banga.png",
+      "video_prompt": "Bongo grips the yellow smiley bucket securely with both short arms and performs exactly three clean side-to-side shakes: small, medium, strong. His face stays focused and overconfident. The bucket keeps its exact shape and face. Static camera, no prop changes, no new objects, no lip sync.",
+      "qc_status": "PASS"
+    },
+    {
+      "id": "shot_04",
+      "purpose": "reveal",
+      "edit_seconds": 5.0,
+      "voice": ["OOOOOO… perfecto.", "Bongo fixo."],
+      "keyframe": "episodes/pilot_001/keyframes/shot_04_reveal.png",
+      "video_prompt": "The banana propeller attached to the fan hub starts and spins rapidly like a working fan. A strong but comedic air stream pushes Bongo's oversized ears and soft fuzz gently backward. Bongo remains planted, calm and proud. The yellow bucket stays still. Static camera, no camera shake, no new objects, preserve all designs exactly. Leave a clear quiet beat before the dry final line.",
+      "qc_status": "WARN",
+      "video": "episodes/pilot_001/video_raw/shot_04_reveal_veo_attempt_02.mp4",
+      "video_qc_note": "Accepted as the stable silent motion base; minor head-banana drift remains. A voiced Omni variant is rendering for comparison."
+    }
+  ],
+  "flow": {
+    "project_name": "Bongo Bucket – pilot_001",
+    "project_url": "https://flow.google.com/project/7c7f34d6-0a9f-4b16-a532-9abf6e5dc741",
+    "image_mode_verified_cost": "0 credits",
+    "video_minimum_verified_cost": "4 credits per 4-second 360p clip",
+    "video_generation_started": true,
+    "credits_used_so_far": 16,
+    "custom_voice": "Flow custom voice based on Algieba; warm, slightly nasal, lightly raspy, natural and dry"
+  }
+}

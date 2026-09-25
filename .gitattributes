@@ -1,0 +1,10 @@
+*.md text eol=lf whitespace=-trailing-space,-blank-at-eof
+*.json text eol=lf whitespace=-blank-at-eof
+*.yaml text eol=lf whitespace=-blank-at-eof
+*.py text eol=lf
+*.png binary
+*.gif binary
+*.webp binary
+*.mp4 binary
+*.wav binary
+*.aiff binary
