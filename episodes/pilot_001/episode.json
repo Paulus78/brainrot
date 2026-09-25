@@ -45,9 +45,9 @@
       "voice": ["Banga…", "banga…", "BANGA."],
       "keyframe": "episodes/pilot_001/keyframes/shot_03_banga.png",
       "video_prompt": "Bongo grips the yellow smiley bucket securely with both short arms and performs exactly three clean side-to-side shakes: small, medium, strong. His face stays focused and overconfident. The bucket keeps its exact shape and face. Static camera, no prop changes, no new objects, no lip sync.",
-      "qc_status": "WARN",
-      "video": "episodes/pilot_001/video_raw/shot_03_banga_omni_voice_attempt_01.mp4",
-      "video_qc_note": "Technically clean and identity-stable, but the requested three progressively stronger bucket shakes are not separated clearly enough. Retained as a documented fallback while a stronger second take is produced."
+      "qc_status": "PASS",
+      "video": "episodes/pilot_001/video_raw/shot_03_banga_omni_voice_attempt_02.mp4",
+      "video_qc_note": "Accepted second Omni custom-voice attempt: three clearly separated bucket shakes with increasing amplitude, followed by a centered stop; character identity, prop, feet and camera remain stable."
     },
     {
       "id": "shot_04",
@@ -67,7 +67,7 @@
     "image_mode_verified_cost": "0 credits",
     "video_minimum_verified_cost": "4 credits per 4-second 360p clip",
     "video_generation_started": true,
-    "credits_used_so_far": 24,
+    "credits_used_so_far": 28,
     "custom_voice": "Flow custom voice based on Algieba; warm, slightly nasal, lightly raspy, natural and dry"
   }
 }

@@ -11,7 +11,7 @@ Produktionsprojekt für den vertikalen 3D-Cartoon-Piloten **„Bongo fixes a fan
 - Die lokalen macOS-Stimmen A/B/C sind nur verworfene Timing-Prototypen und dürfen nicht im finalen Mix verwendet werden.
 - Shot 02 ist mit der neuen Stimme animiert und nach visueller/action-basierter QC akzeptiert.
 - Shot 01 ist mit der neuen Stimme animiert und nach visueller/identitätsbasierter QC akzeptiert.
-- Shot 03 Versuch 01 ist technisch sauber und als Fallback gesichert; wegen zu schwach getrennter Schüttelbewegungen wird ein stärkerer zweiter Take produziert.
+- Shot 03 Versuch 01 bleibt als Fallback erhalten; Versuch 02 ist mit drei klar getrennten, zunehmend stärkeren Schüttelbewegungen akzeptiert.
 
 Ausführliche Fortschritts- und Qualitätsinformationen stehen in:
 

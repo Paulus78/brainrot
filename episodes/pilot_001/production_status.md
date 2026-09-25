@@ -22,13 +22,14 @@ Updated: 2026-09-25 (Europe/Berlin)
 - Shot 02 keyframe generated in Flow at 0 credits and accepted after identity/action QC
 - Shot 02 animated with the natural Flow custom voice and accepted after visual/action QC
 - Shot 01 animated with the Flow custom voice and accepted after visual/identity QC
-- Shot 03 custom-voice attempt 01 rendered and retained as a clean fallback; motion QC is WARN because the three shake beats are not distinct enough
+- Shot 03 custom-voice attempt 01 retained as a clean fallback; motion QC is WARN because the three shake beats are not distinct enough
+- Shot 03 custom-voice attempt 02 accepted: three distinct progressively stronger bucket shakes and a centered end pose
 - All currently downloaded raw video files are stored in the repository-ready project structure
 
 ## Pending
 
 - Final listening comparison for the Flow custom-voice renders; all local system-voice prototypes remain rejected as too robotic
-- Produce and review a stronger Shot 03 take with three clearly separated shake beats
+- Final listening comparison for Shot 03 attempt 02 in the assembled sequence
 - Mix and edit
 - Apply final quality gates and write the postmortem
 
@@ -38,4 +39,4 @@ Updated: 2026-09-25 (Europe/Berlin)
 - No `OPENAI_API_KEY`, `GOOGLE_API_KEY`, `GEMINI_API_KEY` or `ELEVENLABS_API_KEY` is configured.
 - The OpenAI Sora Videos API was shut down on 2026-09-24 and has no one-to-one replacement API.
 - Flow currently charges 4 credits for one 4-second 360p clip in the active project.
-- Twenty-four Flow credits have been used so far: two Veo motion attempts, one Omni custom-voice attempt for Shot 04, accepted Omni renders for Shots 01 and 02, and the first Shot 03 Omni take.
+- Twenty-eight Flow credits have been used so far: two Veo motion attempts, one Omni custom-voice attempt for Shot 04, accepted Omni renders for Shots 01 and 02, and two Shot 03 Omni takes.
