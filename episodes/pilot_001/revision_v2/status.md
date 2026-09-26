@@ -9,7 +9,8 @@ Updated: 2026-09-26 (Europe/Berlin)
 - Individual shot animation and voice generation: IN PROGRESS.
 - Shot 1 animation: PASS after one corrective retry. The accepted take preserves the blue eye ring, single left sandal, damaged motionless fan and button-press reaction.
 - Shot 2 animation: PASS after one corrective retry. The complete fan visibly crosses the rim and disappears; the separate banana is then released and fully vanishes below the rim.
-- Shot 3 animation: NEXT.
+- Shot 3 animation: PASS. Three separated motion/voice beats read small, medium and strong; Bongo returns to center and nothing leaves the bucket.
+- Shot 4 animation: NEXT.
 
 ## Required quality gates
 
