@@ -11,7 +11,8 @@ Updated: 2026-09-26 (Europe/Berlin)
 - Shot 2 animation: PASS after one corrective retry. The complete fan visibly crosses the rim and disappears; the separate banana is then released and fully vanishes below the rim.
 - Shot 3 animation: PASS. Three separated motion/voice beats read small, medium and strong; Bongo returns to center and nothing leaves the bucket.
 - Shot 4 animation: PASS. The same fan visibly completes its slide across the bucket rim, lands upright and holds with the banana propeller completely still.
-- Shot 5 animation: NEXT.
+- Shot 5 animation: PASS. The banana propeller spins, the base remains planted, Bongo holds the proud pose and the payoff line is visibly delivered.
+- Final 12-second edit and full-sequence QC: NEXT.
 
 ## Required quality gates
 
