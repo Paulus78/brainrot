@@ -6,7 +6,10 @@ Updated: 2026-09-26 (Europe/Berlin)
 
 - All five continuity keyframes: PASS.
 - 12-second V2 animatic: READY.
-- Individual shot animation and voice generation: NEXT.
+- Individual shot animation and voice generation: IN PROGRESS.
+- Shot 1 animation: PASS after one corrective retry. The accepted take preserves the blue eye ring, single left sandal, damaged motionless fan and button-press reaction.
+- Shot 2 animation: PASS after one corrective retry. The complete fan visibly crosses the rim and disappears; the separate banana is then released and fully vanishes below the rim.
+- Shot 3 animation: NEXT.
 
 ## Required quality gates
 
