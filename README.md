@@ -9,7 +9,8 @@ Produktionsprojekt für den vertikalen 3D-Cartoon-Piloten **„Bongo fixes a fan
 - Auch das handgehaltene Eimerschütteln und der zu schwache Ventilator-Hook gelten als nicht bestanden und werden nicht unverändert wiederverwendet.
 - Learnings, neue verbindliche Produktionsregeln und der empfohlene Plan für Episode 002 „Bongo Popcorno“ stehen in `docs/production_learnings_and_next_story.md`.
 - Beide Fassungen und alle akzeptierten sowie verworfenen Rohversuche bleiben als Produktionshistorie erhalten.
-- Als nächster Schritt folgen Masterprompt, Continuity-Tabelle, Storyboard-Prompts und ein Stummfilm-Animatic für Episode 002. Videoerzeugung beginnt erst nach bestandenem Storytest.
+- Für Episode 002 sind Masterprompt, Continuity-Tabelle und vier geprüfte Storyboard-Keyframes fertig. Der 15-Sekunden-Stummfilm-Animatic liegt unter `output/pilot_002/`.
+- Der Zustands- und Unterhaltungstest des Storyboards ist bestanden. Als nächstes wird ausschließlich der Zahn-PING-Hook in Veo als Bewegung prototypisiert; spätere Motion-Shots bleiben bis zu dessen Freigabe gesperrt.
 
 Ausführliche Fortschritts- und Qualitätsinformationen stehen in:
 
@@ -18,6 +19,8 @@ Ausführliche Fortschritts- und Qualitätsinformationen stehen in:
 - `episodes/pilot_001/qc/video_qc.md`
 - `episodes/pilot_001/revision_v2/status.md`
 - `episodes/pilot_001/revision_v2/video_qc.md`
+- `episodes/pilot_002/status.md`
+- `episodes/pilot_002/storyboard_qc.md`
 - `docs/production_learnings_and_next_story.md`
 - `episodes/pilot_001/episode.json`
 
@@ -31,6 +34,7 @@ Ausführliche Fortschritts- und Qualitätsinformationen stehen in:
 - `episodes/pilot_001/prompts/` – reproduzierbare Bild- und Stimm-Prompts
 - `episodes/pilot_001/qc/` – Qualitätsprüfungen und Entscheidungen
 - `episodes/pilot_001/revision_v2/` – überarbeitete Ursache-Wirkung-Fassung und V2-QC
+- `episodes/pilot_002/` – Popcorno-Planung, Continuity, Storyboard und QC
 - `output/pilot_001/` – aktuelle Vorschauen/Animatics
 - `src/edit/` – lokales Animatic-Skript
 
