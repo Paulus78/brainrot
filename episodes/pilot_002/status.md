@@ -13,7 +13,9 @@ Updated: 2026-09-27 (Europe/Berlin)
 - Silent animatic: READY at `output/pilot_002/pilot_002_silent_animatic.webp` and `.gif`.
 - Animatic technical check: PASS — four 1080 × 1920 frames with holds of 3.0 / 4.0 / 3.5 / 4.5 seconds, totaling exactly 15.0 seconds.
 - Veo motion prompts and per-shot hard gates: READY in `motion_prompts.md` and `motion_qc.md`.
-- Motion generation and final voice: NOT STARTED by design.
+- Veo Prototype 01 Attempt 01: REJECTED after frame-level review. The kernel entered too slowly and the bare right foot gained a second blue sandal. The raw attempt is preserved under `video_raw/rejected/` for traceability.
+- Veo Prototype 01 Attempt 02: corrective prompt READY; later motion prototypes remain locked.
+- Final voice: NOT STARTED by design.
 
 ## Non-negotiable improvements over Pilot 001 V2
 
@@ -34,4 +36,4 @@ Updated: 2026-09-27 (Europe/Berlin)
 
 ## Next gate
 
-Use Veo to prototype the Tooth-PING hook as motion first. Do not generate later motion shots until the tooth stays attached, exactly one kernel reaches the bucket, the gag happens by 0.8 seconds and the action remains readable at normal phone playback speed.
+Generate exactly one corrective Veo retry for the Tooth-PING hook. Do not generate later motion shots until the tooth stays attached, exactly one kernel is hidden inside the bucket by 0.8 seconds, the bare right foot never gains a sandal and the action remains readable at normal phone playback speed.

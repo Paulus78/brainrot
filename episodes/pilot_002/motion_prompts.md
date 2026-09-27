@@ -41,6 +41,22 @@ The hook passes only if every item is true:
 - A voice, word, caption or musical sting is generated.
 - The clip requires acceleration above 1.15× to fit the edit.
 
+### Corrective retry prompt after Attempt 01
+
+Animate this exact 9:16 input frame for eight seconds. The input image is the identity and layout lock. Do not redesign anything.
+
+MOST IMPORTANT ACTION, FIRST 0.8 SECONDS ONLY: the one golden kernel already visible directly below Bongo's tooth immediately continues straight down along the drawn motion trail. It crosses the clearly visible bucket rim before 0.6 seconds and is completely hidden inside the bucket before 0.8 seconds. This is a very short, fast fall, not a slow float. There is exactly one kernel. It never touches the rim, never bounces and never returns.
+
+Bongo's body performs only a tiny recoil in place. His raised LEFT foot stays raised for the whole clip and keeps the only blue sandal. His planted RIGHT foot stays planted, completely bare and brown for the whole clip. Never add footwear to the right foot. Never put the raised foot down, never step, never swap the feet and never duplicate the sandal. His ears make one small delayed flap. His one front tooth remains rigidly attached and unchanged.
+
+From 0.8 to 1.6 seconds, Bongo's pupils and head snap downward to the bucket. From 1.6 seconds to the end, he holds a confused stare into the bucket with only subtle breathing and fur settling. The bucket never moves. Keep the static eye-level camera and the full open rim visible continuously.
+
+Audio: exactly one short metallic PING at the first frame and one quiet bucket plink before 0.8 seconds. No voice, speech, words, singing, music or extra sound gag.
+
+Forbidden: a second kernel, popcorn, banana ingredient, closed bucket, rim collision, slow-motion falling, camera movement, crop change, missing blue eye ring, eye redesign, tooth movement, tooth loss, two sandals, shoe material appearing on the bare right foot, walking, foot swap, duplicated limb, detached head peel, text, subtitle, cut, morph or teleportation.
+
+Retry acceptance gate: kernel completely hidden by 0.8 seconds; raised left foot still has one blue sandal; planted right foot remains fully bare in every sampled frame; tooth, eye ring and head peel remain unchanged; no speech; at least 1.5 seconds of readable looking-down hold is available.
+
 ## Prototype 02 — Banana drop
 
 Locked until Prototype 01 passes.
@@ -79,4 +95,3 @@ Only after the picture edit passes the silent-story review, create both lines in
 2. “Bongo snacko.” — dry, satisfied, identical register and character.
 
 Do not direct surprise through a higher pitch. Use timing, breath and a slight pause instead.
-
