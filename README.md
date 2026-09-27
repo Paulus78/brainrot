@@ -4,22 +4,21 @@ Produktionsprojekt für den vertikalen 3D-Cartoon-Piloten **„Bongo fixes a fan
 
 ## Aktueller Stand
 
-- Vier vertikale 9:16-Keyframes sind erstellt und qualitätsgeprüft.
-- Der 12-Sekunden-Animatic enthält alle vier finalen Keyframes.
-- Shot 04 Versuch 04 ist mit stabiler Bananenpropeller-Bewegung und beiden vorgesehenen Voice-Zeilen akzeptiert.
-- Eine natürlichere, benutzerdefinierte Bongo-Stimme wurde in Google Flow erstellt und in allen vier akzeptierten Shots verwendet.
-- Die lokalen macOS-Stimmen A/B/C sind nur verworfene Timing-Prototypen und dürfen nicht im finalen Mix verwendet werden.
-- Shot 02 ist mit der neuen Stimme animiert und nach visueller/action-basierter QC akzeptiert.
-- Shot 01 ist mit der neuen Stimme animiert und nach visueller/identitätsbasierter QC akzeptiert.
-- Shot 03 Versuch 01 bleibt als Fallback erhalten; Versuch 02 ist mit drei klar getrennten, zunehmend stärkeren Schüttelbewegungen akzeptiert.
-- Der vollständige 12-Sekunden-Pilot liegt als `output/pilot_001/pilot_001_final.mp4` vor.
-- Der finale Schnitt ist reproduzierbar über `src/edit/compose_final.py`; technische und visuelle QC sind dokumentiert.
+- Die überarbeitete V2-Fassung mit expliziter Ursache-Wirkung-Kette liegt unter `output/pilot_001/revision_v2/pilot_001_v2_final.mp4` vor.
+- Die kreative Nachprüfung bewertet V2 trotz besserer Kontinuität noch als zu statisch, zu schnell geschnitten und stimmlich nicht konsistent genug für eine Veröffentlichung.
+- Auch das handgehaltene Eimerschütteln und der zu schwache Ventilator-Hook gelten als nicht bestanden und werden nicht unverändert wiederverwendet.
+- Learnings, neue verbindliche Produktionsregeln und der empfohlene Plan für Episode 002 „Bongo Popcorno“ stehen in `docs/production_learnings_and_next_story.md`.
+- Beide Fassungen und alle akzeptierten sowie verworfenen Rohversuche bleiben als Produktionshistorie erhalten.
+- Als nächster Schritt folgen Masterprompt, Continuity-Tabelle, Storyboard-Prompts und ein Stummfilm-Animatic für Episode 002. Videoerzeugung beginnt erst nach bestandenem Storytest.
 
 Ausführliche Fortschritts- und Qualitätsinformationen stehen in:
 
 - `episodes/pilot_001/production_status.md`
 - `episodes/pilot_001/qc/keyframe_qc.md`
 - `episodes/pilot_001/qc/video_qc.md`
+- `episodes/pilot_001/revision_v2/status.md`
+- `episodes/pilot_001/revision_v2/video_qc.md`
+- `docs/production_learnings_and_next_story.md`
 - `episodes/pilot_001/episode.json`
 
 ## Projektstruktur
@@ -31,6 +30,7 @@ Ausführliche Fortschritts- und Qualitätsinformationen stehen in:
 - `episodes/pilot_001/voice/` – Stimmprototypen
 - `episodes/pilot_001/prompts/` – reproduzierbare Bild- und Stimm-Prompts
 - `episodes/pilot_001/qc/` – Qualitätsprüfungen und Entscheidungen
+- `episodes/pilot_001/revision_v2/` – überarbeitete Ursache-Wirkung-Fassung und V2-QC
 - `output/pilot_001/` – aktuelle Vorschauen/Animatics
 - `src/edit/` – lokales Animatic-Skript
 
@@ -53,7 +53,7 @@ python3 src/edit/compose_animatic.py
 Für den finalen Videoschnitt wird zusätzlich `ffmpeg` benötigt:
 
 ```bash
-python3 src/edit/compose_final.py
+python3 src/edit/compose_v2_final.py
 ```
 
 Falls `ffmpeg` nicht im Suchpfad liegt, kann sein vollständiger Pfad über die Umgebungsvariable `FFMPEG` gesetzt werden.
