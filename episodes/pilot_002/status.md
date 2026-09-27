@@ -14,7 +14,9 @@ Updated: 2026-09-27 (Europe/Berlin)
 - Animatic technical check: PASS — four 1080 × 1920 frames with holds of 3.0 / 4.0 / 3.5 / 4.5 seconds, totaling exactly 15.0 seconds.
 - Veo motion prompts and per-shot hard gates: READY in `motion_prompts.md` and `motion_qc.md`.
 - Veo Prototype 01 Attempt 01: REJECTED after frame-level review. The kernel entered too slowly and the bare right foot gained a second blue sandal. The raw attempt is preserved under `video_raw/rejected/` for traceability.
-- Veo Prototype 01 Attempt 02: corrective prompt READY; later motion prototypes remain locked.
+- Veo Prototype 01 Attempts 01–04: all rejected and preserved for traceability. The repeated failure mode was unreliable small-object motion: slow entry, object morphing, reappearance or duplication.
+- Prototype 01 Hybrid V1: PASS at `video_raw/accepted/hook_01_hybrid_v1.mp4`. It uses three locked states and deterministic timing instead of unreliable interpolation.
+- Prototype 02 Banana drop: UNLOCKED and next in production.
 - Final voice: NOT STARTED by design.
 
 ## Non-negotiable improvements over Pilot 001 V2
@@ -36,4 +38,4 @@ Updated: 2026-09-27 (Europe/Berlin)
 
 ## Next gate
 
-Generate exactly one corrective Veo retry for the Tooth-PING hook. Do not generate later motion shots until the tooth stays attached, exactly one kernel is hidden inside the bucket by 0.8 seconds, the bare right foot never gains a sandal and the action remains readable at normal phone playback speed.
+Produce Prototype 02 using the accepted banana-drop storyboard frame. The ingredient banana must visibly cross the open rim and disappear completely, while Bongo's attached head peel and single left sandal remain unchanged. Apply frame-level QC before unlocking the three-tap beat.

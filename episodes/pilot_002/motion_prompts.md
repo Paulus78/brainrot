@@ -59,13 +59,17 @@ Retry acceptance gate: kernel completely hidden by 0.8 seconds; raised left foot
 
 ## Prototype 02 — Banana drop
 
-Locked until Prototype 01 passes.
+Unlocked after the accepted Hybrid Hook V1.
 
 Start image: `keyframes/frame_02_banana_drop.png`
 
 Animate one continuous release. The exact one whole ingredient banana leaves Bongo's paw, crosses the open rim and fully disappears inside the same planted yellow bucket. Bongo's head peel remains attached and unchanged. The hidden kernel stays hidden. Bongo ends with the same confident crooked grin and looks into the bucket. Camera almost locked; no dialogue, extra banana, popcorn, bucket movement, cut, morph or teleportation.
 
 Motion gate: paw visibly releases one banana; the whole ingredient crosses and clears the rim without the stem remaining visible.
+
+### Production note after hook tests
+
+Prototype 01 proved that Veo is unreliable for tiny rigid-object transfers even with locked endpoints. For Prototype 02, generate one carefully scoped candidate because the banana is larger and easier to track. If the banana duplicates, morphs, reverses direction or remains visible after crossing the rim, reject immediately and use a locked release / rim / empty-bucket state sequence instead of repeating the same prompt.
 
 ## Prototype 03 — Three taps and self-rumble
 
