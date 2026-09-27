@@ -1,0 +1,82 @@
+# Pilot 002 — Veo motion prompts
+
+All motion renders are vertical 9:16 and use the accepted storyboard frame for that beat. Generate one candidate at a time and apply its quality gate before moving on. Do not generate final dialogue in any video render.
+
+## Prototype 01 — Tooth-PING hook
+
+Start image: `keyframes/frame_01_tooth_ping.png`
+
+Target source length: 4 seconds. Intended final use: approximately 2.5–3.0 seconds without acceleration above 1.15×.
+
+### Veo prompt
+
+Animate this exact accepted 9:16 storyboard frame as one continuous, immediately readable comic action. Preserve Bongo's identity absolutely: same light-brown shaggy fur, enormous ears, asymmetric eyes, vivid cobalt-blue ring around the smaller right eye, exactly one firmly attached front tooth, same banana peel on his head and exactly one blue sandal on his left foot. Preserve the exact same yellow smiley bucket and warm garage.
+
+Begin at the instant just after the hard kernel has struck the tooth. At 0.0 seconds, play one crisp nonverbal PING. The single visible golden corn kernel continues along its existing downward trajectory, crosses the open yellow bucket rim by 0.7 seconds and disappears completely inside by 0.9 seconds. Do not create another kernel. Bongo makes one quick physical recoil: his lifted foot and both ears react, but he does not fall. His front tooth remains firmly attached, motionless and unchanged. Immediately after the kernel disappears, Bongo's eyes and head follow downward toward the bucket. He freezes in confused silence for the rest of the clip so the cause and destination remain clear.
+
+Keep the camera almost locked. A tiny downward ease following the existing kernel path is allowed only if the open rim, Bongo's face and the blue eye ring remain visible. Preserve natural weight and smooth 24 fps motion. Generate only the PING, a small bucket plink and subtle fur movement; no speech, music or vocalization.
+
+No cut, zoom burst, camera spin, new object, second kernel, loose tooth, tooth bend, missing tooth, second bucket, whole banana, popcorn, text, subtitle, duplicated limb, disappearing blue ring, changed sandal, detached head peel, morph or teleportation.
+
+### Hard acceptance gate
+
+The hook passes only if every item is true:
+
+- One and only one kernel is visible throughout its flight.
+- The kernel crosses the bucket rim and fully disappears by 0.9 seconds.
+- The tooth never moves independently, bends, duplicates or detaches.
+- The blue eye ring, head peel and single left sandal remain unchanged.
+- The action is understandable with audio muted at normal playback speed.
+- The first frame already contains action; there is no establishing delay.
+- Bongo's reaction is lively but does not obscure the kernel or bucket.
+- The final looking-down hold lasts at least 1.5 seconds in the four-second source.
+
+### Automatic rejection reasons
+
+- Kernel misses the bucket, bounces out or becomes popcorn early.
+- Additional kernels or ingredients appear.
+- Tooth damage becomes the story instead of a harmless comic PING.
+- Bongo changes species, eye layout, footwear or head banana.
+- Camera motion hides the bucket crossing.
+- A voice, word, caption or musical sting is generated.
+- The clip requires acceleration above 1.15× to fit the edit.
+
+## Prototype 02 — Banana drop
+
+Locked until Prototype 01 passes.
+
+Start image: `keyframes/frame_02_banana_drop.png`
+
+Animate one continuous release. The exact one whole ingredient banana leaves Bongo's paw, crosses the open rim and fully disappears inside the same planted yellow bucket. Bongo's head peel remains attached and unchanged. The hidden kernel stays hidden. Bongo ends with the same confident crooked grin and looks into the bucket. Camera almost locked; no dialogue, extra banana, popcorn, bucket movement, cut, morph or teleportation.
+
+Motion gate: paw visibly releases one banana; the whole ingredient crosses and clears the rim without the stem remaining visible.
+
+## Prototype 03 — Three taps and self-rumble
+
+Locked until Prototypes 01 and 02 pass.
+
+Start image: `keyframes/frame_03_planted_bucket_tap.png`
+
+The bucket remains heavy and flat on the floor. Reconstruct exactly three separated one-paw taps with increasing force: small, medium, strong. The tapping paw clearly leaves the bucket between contacts; the other paw stays close to Bongo's body. After the third tap, hold complete stillness for half a second. Only then the bucket rumbles by itself without sliding, tilting or lifting. Bongo leans back and takes one cautious half-step. No hand-held shake, no dialogue, no popcorn, no escaping ingredient, no camera shake.
+
+Motion gate: three contacts are individually countable and the bucket's self-rumble begins only after the pause.
+
+## Prototype 04 — Banana-popcorn payoff
+
+Locked until Prototypes 01–03 pass.
+
+Start image: `keyframes/frame_04_banana_popcorn_payoff.png`
+
+Use the frame as the intended final state. Create a short wide payoff in which a fountain of small fluffy banana-shaped popcorn finishes erupting from the visible yellow bucket and settles around Bongo. Do not recreate the whole transformation offscreen. Bongo remains buried to his neck, raises exactly one snack piece, takes a small satisfied bite and ends in the exact stable dry-proud pose. Allow one gentle camera pullback only. Hold the final composition at least 1.5 seconds. No final dialogue, second bucket, whole flying bananas, fire, duplicate Bongo, missing blue ring, loose tooth or obscured face.
+
+Motion gate: the eruption visibly originates from the bucket, Bongo's face remains readable and the final hold is long enough to understand the joke.
+
+## Final voice policy
+
+Only after the picture edit passes the silent-story review, create both lines in one uninterrupted session with one locked voice:
+
+1. “Bucketo.” — brief, self-assured, warm mid-low register.
+2. “Bongo snacko.” — dry, satisfied, identical register and character.
+
+Do not direct surprise through a higher pitch. Use timing, breath and a slight pause instead.
+

@@ -12,6 +12,7 @@ Updated: 2026-09-27 (Europe/Berlin)
 - Frame 03 required one corrective retry because the first version did not read as a completed tap.
 - Silent animatic: READY at `output/pilot_002/pilot_002_silent_animatic.webp` and `.gif`.
 - Animatic technical check: PASS — four 1080 × 1920 frames with holds of 3.0 / 4.0 / 3.5 / 4.5 seconds, totaling exactly 15.0 seconds.
+- Veo motion prompts and per-shot hard gates: READY in `motion_prompts.md` and `motion_qc.md`.
 - Motion generation and final voice: NOT STARTED by design.
 
 ## Non-negotiable improvements over Pilot 001 V2
