@@ -22,7 +22,9 @@ Updated: 2026-09-28 (Europe/Berlin)
 - Prototype 03 Hybrid V1: rejected because hard state cuts made the taps feel mechanical.
 - Prototype 03 Hybrid V2: structurally correct but rejected because Bongo did not react and the beat remained emotionally flat.
 - Prototype 03 Hybrid V3: PASS at `video_raw/accepted/taps_03_hybrid_v3.mp4`. It contains three increasing contacts, a clear silent pause, a planted self-rumble and a delayed startled reaction.
-- Prototype 04 Banana-popcorn payoff: UNLOCKED and next in production.
+- Prototype 04 Hybrid V1: rejected because the long dissolves created extended double contours around eyes and paws.
+- Prototype 04 Hybrid V2: PASS at `video_raw/accepted/payoff_04_hybrid_v2.mp4`. The eruption begins inside the bucket, grows into a large mound, preserves Bongos readable face and holds the final gag for more than 3.5 seconds.
+- All four visual motion prototypes: PASS.
 - Final voice: NOT STARTED by design.
 
 ## Non-negotiable improvements over Pilot 001 V2
@@ -39,9 +41,9 @@ Updated: 2026-09-28 (Europe/Berlin)
 - Tooth-PING hook: PASS at storyboard level.
 - Same-character and same-bucket continuity: PASS within storyboard tolerance.
 - Planted bucket replacing the failed hand-held shake: PASS in accepted motion.
-- Large banana-popcorn payoff: PASS.
-- Silent cause-and-effect chain through the ritual: PASS in motion; the final eruption remains the last visual gate.
+- Large banana-popcorn payoff: PASS in accepted motion.
+- Silent cause-and-effect chain from tooth impact through final mound: PASS in motion.
 
 ## Next gate
 
-Produce Prototype 04 from the accepted banana-popcorn payoff frame. The eruption must visibly originate inside the same planted yellow bucket, expand into one large readable fountain, keep Bongo's face visible and end on a stable hold of at least 1.5 seconds. Reject whole flying bananas, a second bucket, premature popcorn, obscured eyes or any payoff that appears through an unexplained cut.
+Assemble the four accepted motion units into the first silent picture cut. Target approximately 15 seconds by trimming holds only; do not accelerate action. Verify the complete cause-and-effect chain at normal speed before generating final dialogue. After picture lock, create both Bongo lines in one uninterrupted voice session and reject any pitch change between them.

@@ -7,7 +7,7 @@ Updated: 2026-09-28 (Europe/Berlin)
 | 01 Tooth-PING | PASS — HYBRID V1 | One kernel fully enters bucket by 0.71 s; bare right foot remains bare |
 | 02 Banana drop | PASS — HYBRID V1 | One intact banana crosses the rim; clean empty-bucket hold follows |
 | 03 Three taps | PASS — HYBRID V3 | Three countable contacts, pause, planted self-rumble and delayed reaction |
-| 04 Payoff | UNLOCKED | Eruption must visibly originate inside the same planted bucket |
+| 04 Payoff | PASS — HYBRID V2 | Bucket-origin eruption, unobscured face and 3.5 s final hold |
 
 ## Attempt log
 
@@ -146,3 +146,28 @@ File: `video_raw/accepted/taps_03_hybrid_v3.mp4`
 - Reaction: PASS — Bongo retracts both paws and leans away only after the bucket begins to rattle.
 - Audio structure: PASS — three dry taps grow in force, followed by silence and one low rattle; no dialogue or music.
 - Final verdict: accepted and Prototype 04 unlocked.
+
+### Prototype 04 Hybrid V1 — three locked eruption states with long blends, 720p, 5 s — REJECT
+
+File: `video_raw/rejected/payoff_04_hybrid_v1_slow_blend_ghosting.mp4`
+
+- Bucket-origin action: PASS — the first state already shows a compact fountain clearly leaving the open bucket.
+- Escalation and final hold: PASS — the amount grows dramatically and the settled payoff remains readable for almost three seconds.
+- Identity and object count: PASS — same Bongo, one planted bucket, no whole ingredient banana and no duplicate character.
+- Transition quality: FAIL — 0.9- and 1.2-second dissolves leave visible double contours around eyes and paws for too long.
+- Final verdict: structurally useful, but rejected because the extended ghosting reads as morphing rather than energetic motion.
+
+### Prototype 04 Hybrid V2 — compact eruption transitions and long settled hold, 720p, 5 s — PASS
+
+File: `video_raw/accepted/payoff_04_hybrid_v2.mp4`
+
+- Technical file check: PASS — H.264/AAC, 720 × 1280, 24 fps, exactly 5.0 seconds.
+- Source clarity: PASS — the small initial fountain visibly begins inside the same open bucket.
+- Escalation: PASS — the fountain expands into many banana-shaped pieces and then a large mound.
+- Transition quality: PASS within hybrid tolerance — the 0.30- and 0.35-second blends confine double contours to brief motion-smear moments instead of long morphs.
+- Bucket continuity: PASS — one yellow smiley bucket stays upright, front-center and planted.
+- Character continuity: PASS — Bongo keeps the attached head banana, one tooth, blue right-eye ring and one left sandal; the face and ears remain readable.
+- Forbidden objects: PASS — no whole flying bananas, second bucket, duplicate Bongo, smoke, fire, caption or premature cutaway.
+- Payoff hold: PASS — the satisfied mound-and-snack composition is stable from approximately 1.45 to 5.0 seconds, more than twice the 1.5-second minimum.
+- Audio structure: PASS — rapid dry pops and a low eruption whoosh settle into one final crunch; no dialogue or music.
+- Final verdict: accepted. All four visual motion prototypes now pass.

@@ -53,3 +53,15 @@ The accepted `taps_03_hybrid_v3.mp4` uses these four frames:
 The edit blends the ready/contact states into three distinct pulses centered at approximately 0.33, 0.96 and 1.65 seconds. Their durations increase to communicate small, medium and strong force. A 0.56-second motionless gap follows. Only then does Bongo transition into the startled pose and the vibration marks pulse from approximately 2.80 to 3.33 seconds. The bucket position never changes. The matching audio has three increasing dry impacts, silence and one low plastic rattle.
 
 This is the preferred method for countable repeated contacts: lock the physical states, animate only the intended contact variable, preserve a real pause, then add a delayed character reaction. Do not accept technically countable motion if it still lacks emotional cause and effect.
+
+## Payoff application
+
+The payoff is built from three camera-locked states with the bucket in the same front-center floor position:
+
+1. `frame_04a_eruption_start.png` — 8–12 banana-shaped popcorn pieces visibly leave the open bucket while Bongo recoils.
+2. `frame_04b_eruption_mid.png` — a much broader fountain surrounds Bongo, but his face and defining features remain unobscured.
+3. `frame_04c_payoff_hold.png` — the eruption has settled into a neck-high mound; Bongo holds exactly one snack beside his mouth.
+
+Hybrid V1 used long dissolves and was rejected because double eyes and paws remained visible too long. In accepted Hybrid V2, the first growth blend lasts 0.30 seconds and the second 0.35 seconds. This makes the transitions read as fast eruption smears instead of object morphing. The final state begins around 1.45 seconds and remains unchanged through 5.0 seconds, giving the largest gag more than 3.5 seconds of unbroken readability.
+
+The payoff confirms a useful rhythm rule: escalation may use two brief, forceful state changes when they remain inside one continuous action. The problem in Pilot 001 was not every fast transition; it was five unrelated micro-clips without sufficient holds or emotional continuity.

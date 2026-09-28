@@ -186,7 +186,7 @@ Die zweite kontrollierte Version hatte drei Klopfer, Pause und Rumpeln, aber Bon
 - Zahn-PING-Hook: bestanden als kontrollierter Hybrid.
 - Banane in den Eimer: bestanden als Kombination aus verifizierter Veo-Bewegung und sauberem Endzustand.
 - Drei Klopfer plus Eigenrütteln: bestanden als Hybrid V3; Eimer bleibt durchgehend am Boden.
-- Finale Popcornfontäne: noch offen und jetzt der nächste Risikotest.
+- Finale Popcornfontäne: bestanden als Hybrid V2 mit eindeutigem Eimerursprung, kurzer Eskalation und mehr als 3,5 Sekunden Schlussbild.
 
 Diese Ergebnisse bestätigen die Produktionsregel: generative Bewegung wird nur dort eingesetzt, wo sie nach Einzelbildprüfung physisch und erzählerisch besteht. Kritische Objektübergänge, exakte Wiederholungszahlen und Bodenhaftung werden deterministisch abgesichert.
 
@@ -240,4 +240,4 @@ Episode 002 ist erst fertig, wenn alle folgenden Fragen mit Ja beantwortet werde
 
 ## Nächster konkreter Schritt
 
-Als nächstes wird Prototype 04, die bananenförmige Popcornfontäne, erzeugt und framegenau geprüft. Sie muss sichtbar aus demselben Eimer entstehen, Bongo nicht unlesbar verdecken und mindestens 1,5 Sekunden in einem stabilen Schlussbild halten. Erst wenn dieser letzte Bildbeat besteht, werden die vier akzeptierten Einheiten zu einem Stummfilm-Rohschnitt verbunden; danach folgt die einmalig erzeugte Voice-Masteraufnahme.
+Als nächstes werden die vier bestandenen Einheiten zu einem etwa 15-sekündigen Stummfilm-Rohschnitt verbunden. Gekürzt werden ausschließlich Ruhephasen; keine Handlung wird beschleunigt. Wenn die vollständige Kette Zahn-PING → Korn im Eimer → Banane im Eimer → drei Klopfer → Pause → Eigenrütteln → Popcornfontäne bei normaler Geschwindigkeit ohne Erklärung verständlich ist, folgt die einmalig erzeugte Voice-Masteraufnahme für „Bucketo.“ und „Bongo snacko.“.

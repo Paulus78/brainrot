@@ -95,6 +95,10 @@ Use the frame as the intended final state. Create a short wide payoff in which a
 
 Motion gate: the eruption visibly originates from the bucket, Bongo's face remains readable and the final hold is long enough to understand the joke.
 
+### Production result
+
+Chrome/Flow was retried, but its upload control repeatedly opened unrelated media or returned to the Flow home screen. The payoff therefore uses the already proven locked-state method rather than spending more credits behind an unreliable UI path. `frame_04a_eruption_start.png`, `frame_04b_eruption_mid.png` and `frame_04c_payoff_hold.png` share the same camera and bucket position. Hybrid V1 proved the structure but was rejected because long dissolves caused visible ghosting. Accepted `payoff_04_hybrid_v2.mp4` confines each growth transition to 0.30–0.35 seconds, then holds the settled mound and snack pose from about 1.45 to 5.0 seconds. The audio uses only dry popcorn pops, a low eruption whoosh and one final crunch. No dialogue is embedded.
+
 ## Final voice policy
 
 Only after the picture edit passes the silent-story review, create both lines in one uninterrupted session with one locked voice:
