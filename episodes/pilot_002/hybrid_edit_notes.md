@@ -34,3 +34,7 @@ This is a deliberate clarity decision, not a fallback to frantic montage. The co
 ## Rule for later beats
 
 Use Veo only for motions it can preserve under frame-level QC. For critical object transfers and countable contacts, prefer locked state cuts or deterministic motion over additional retries that repeat a known failure mode.
+
+## Banana-drop application
+
+The first banana motion candidate contained a good release and rim crossing but left a stem fragment visible inside the bucket. The accepted `banana_02_hybrid_v1.mp4` keeps the verified first 18 frames at normal speed and cuts to the cleaned empty-bucket state `frame_02c_post_drop_clean.png`. This preserves the useful motion without accepting the continuity error.

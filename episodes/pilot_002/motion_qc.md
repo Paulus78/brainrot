@@ -5,8 +5,8 @@ Updated: 2026-09-27 (Europe/Berlin)
 | Prototype | State | Critical gate |
 | --- | --- | --- |
 | 01 Tooth-PING | PASS — HYBRID V1 | One kernel fully enters bucket by 0.71 s; bare right foot remains bare |
-| 02 Banana drop | UNLOCKED | One intact banana must fully cross the rim |
-| 03 Three taps | LOCKED | Only unlock after Prototypes 01–02 pass |
+| 02 Banana drop | PASS — HYBRID V1 | One intact banana crosses the rim; clean empty-bucket hold follows |
+| 03 Three taps | UNLOCKED | Three countable taps, pause, then planted self-rumble |
 | 04 Payoff | LOCKED | Only unlock after Prototypes 01–03 pass |
 
 ## Attempt log
@@ -77,3 +77,28 @@ File: `video_raw/accepted/hook_01_hybrid_v1.mp4`
 - Hold: PASS — the final looking-down state lasts approximately 2.29 seconds.
 - Speed policy: PASS — no generated source clip is accelerated.
 - Final verdict: accepted and Prototype 02 unlocked.
+
+### Prototype 02 Attempt 01 — Veo 3.1 Lite, 720p, 8 s — REJECT AS RAW
+
+File: `video_raw/rejected/banana_02_attempt_01_veo_lite.mp4`
+
+- Technical file check: PASS — H.264/AAC, 720 × 1280, 24 fps, exactly 8.0 seconds.
+- Release readability: PASS — Bongo visibly lets go of the intact banana.
+- Rim crossing: PASS — the banana crosses the open rim at approximately 0.6–0.7 seconds.
+- Single-banana rule: PASS — no duplicate ingredient banana or popcorn appears.
+- Character lock: PASS — head peel, one tooth, blue eye ring and single left sandal remain readable.
+- Full disappearance: FAIL — a small brown/yellow stem fragment remains protruding from the back-right interior of the bucket for the rest of the raw clip.
+- Final verdict: raw source rejected; only the verified release section is eligible for the hybrid edit.
+
+### Prototype 02 Hybrid V1 — verified motion plus clean hold, 720p, 4.02 s — PASS
+
+File: `video_raw/accepted/banana_02_hybrid_v1.mp4`
+
+- Technical file check: PASS — H.264/AAC, 720 × 1280, 24 fps, approximately 4.02 seconds including AAC frame padding.
+- Release and entry: PASS — the unaccelerated Veo motion shows one banana leaving the paw and crossing the rim before 0.71 seconds.
+- Clean completion: PASS — the edit cuts before the persistent stem error to `frame_02c_post_drop_clean.png`, where the same bucket is visibly empty.
+- Ingredient count: PASS — one banana before entry, none afterward; no popcorn.
+- Character continuity: PASS — Bongo retains the attached head peel, one front tooth, blue right-eye ring, one left blue sandal and bare right foot.
+- Readable hold: PASS — the empty-bucket confident-grin state holds for more than three seconds.
+- Speed policy: PASS — no source footage is accelerated.
+- Final verdict: accepted and Prototype 03 unlocked.

@@ -73,7 +73,7 @@ Prototype 01 proved that Veo is unreliable for tiny rigid-object transfers even 
 
 ## Prototype 03 — Three taps and self-rumble
 
-Locked until Prototypes 01 and 02 pass.
+Unlocked after accepted Hybrid Hook V1 and Banana Drop Hybrid V1.
 
 Start image: `keyframes/frame_03_planted_bucket_tap.png`
 

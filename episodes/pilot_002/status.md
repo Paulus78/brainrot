@@ -16,7 +16,9 @@ Updated: 2026-09-27 (Europe/Berlin)
 - Veo Prototype 01 Attempt 01: REJECTED after frame-level review. The kernel entered too slowly and the bare right foot gained a second blue sandal. The raw attempt is preserved under `video_raw/rejected/` for traceability.
 - Veo Prototype 01 Attempts 01–04: all rejected and preserved for traceability. The repeated failure mode was unreliable small-object motion: slow entry, object morphing, reappearance or duplication.
 - Prototype 01 Hybrid V1: PASS at `video_raw/accepted/hook_01_hybrid_v1.mp4`. It uses three locked states and deterministic timing instead of unreliable interpolation.
-- Prototype 02 Banana drop: UNLOCKED and next in production.
+- Prototype 02 raw Veo Attempt 01: rejected because a banana stem fragment remained visible inside the bucket.
+- Prototype 02 Hybrid V1: PASS at `video_raw/accepted/banana_02_hybrid_v1.mp4`; the verified release motion cuts to a clean empty-bucket hold before the stem error.
+- Prototype 03 Three taps and self-rumble: UNLOCKED and next in production.
 - Final voice: NOT STARTED by design.
 
 ## Non-negotiable improvements over Pilot 001 V2
@@ -38,4 +40,4 @@ Updated: 2026-09-27 (Europe/Berlin)
 
 ## Next gate
 
-Produce Prototype 02 using the accepted banana-drop storyboard frame. The ingredient banana must visibly cross the open rim and disappear completely, while Bongo's attached head peel and single left sandal remain unchanged. Apply frame-level QC before unlocking the three-tap beat.
+Produce Prototype 03 using the accepted planted-bucket tap frame. Exactly three paw contacts must be countable, followed by a clear pause and only then a self-rumble while the bucket stays flat on the floor. Reject any hand-held side-to-side shake or early bucket motion.
