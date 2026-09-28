@@ -27,7 +27,9 @@ Updated: 2026-09-28 (Europe/Berlin)
 - All four visual motion prototypes: PASS.
 - Picture Cut V1: PASS at `output/pilot_002/pilot_002_picture_cut_v1.mp4`; 14.959 seconds, 720 × 1280, 24 fps, no black interval and no action acceleration.
 - Muted first-view story test: PASS; review copy stored at `output/pilot_002/pilot_002_picture_cut_v1_silent.mp4`.
-- Final voice: NOT STARTED by design.
+- Final voice: PASS. Both lines were generated in one uninterrupted Google Flow Omni 1.1 Flash take in Chrome. Take 1 was accepted; Take 2 was rejected after it raised the second line by 4.11 semitones and added an unwanted trailing sound.
+- Final Candidate V1: READY at `output/pilot_002/pilot_002_final_v1.mp4`; 14.959 seconds, 720 × 1280, 24 fps, -20.5 LUFS and -1.1 dBFS true peak.
+- Voice-only review: READY at `output/pilot_002/pilot_002_voice_only_v1.wav`.
 
 ## Non-negotiable improvements over Pilot 001 V2
 
@@ -45,7 +47,10 @@ Updated: 2026-09-28 (Europe/Berlin)
 - Planted bucket replacing the failed hand-held shake: PASS in accepted motion.
 - Large banana-popcorn payoff: PASS in accepted motion.
 - Silent cause-and-effect chain from tooth impact through final mound: PASS in motion.
+- Same-voice identity across both final lines: PASS by one-session source, +0.67-semitone final median difference and 0.07 dB final level difference.
+- Dialogue placement on completed visual beats: PASS.
+- Combined technical export: PASS.
 
 ## Next gate
 
-Create both Bongo lines in one uninterrupted voice session and place them into Picture Cut V1. Use the same warm, dry, mid-low register for `Bucketo.` and `Bongo snacko.`; reject any high-pitched surprise voice, robotic cadence or resonance change. Then run the audio-only identity check and the final combined technical/creative QC.
+Run one human listening pass on `output/pilot_002/pilot_002_final_v1.mp4`, concentrating only on perceived naturalness and comic character. The visual story, timing, voice identity and technical export are already locked. If a future voice take is preferred, replace only the single master in `episodes/pilot_002/audio/accepted/` and rebuild with `src/edit/build_episode_002_final.sh`.

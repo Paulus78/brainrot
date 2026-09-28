@@ -240,6 +240,8 @@ Episode 002 ist erst fertig, wenn alle folgenden Fragen mit Ja beantwortet werde
 - Bleibt der visuelle Payoff lange genug stehen, um ihn zu erfassen?
 - Ist der Schluss lustig oder überraschend genug, dass ein erneutes Ansehen reizvoll ist?
 
-## Nächster konkreter Schritt
+## Aktueller Abschluss von Episode 002
 
-Der Bildschnitt ist bestanden. Als nächstes folgt die einmalig erzeugte Voice-Masteraufnahme für „Bucketo.“ und „Bongo snacko.“. Beide Zeilen müssen in derselben mitteltiefen, warmen, trockenen Stimme innerhalb einer Session entstehen. Anschließend wird zuerst nur die Sprachspur auf Identität und Natürlichkeit geprüft und erst danach mit dem Bildschnitt verbunden.
+Die Voice-Masteraufnahme wurde in Google Chrome als ein zusammenhängender Flow-Take erzeugt. Von zwei Kandidaten wurde Take 1 akzeptiert: Seine beiden Zeilen unterscheiden sich im Rohmaterial nur um 0,95 Halbtöne. Take 2 wurde konsequent verworfen, weil „Bongo snacko“ um 4,11 Halbtöne höher lag und ein ungewolltes Schlussgeräusch enthielt. Nach rein statischer Pegelanpassung liegen die final eingesetzten Zeilen nur 0,67 Halbtöne und 0,07 dB auseinander; es wurde weder zeitgestreckt noch die Tonhöhe verändert.
+
+Der vollständige Finalkandidat liegt unter `output/pilot_002/pilot_002_final_v1.mp4`. Das technische QC besteht bei 14,959 Sekunden, 720 × 1280, 24 fps, -20,5 LUFS und -1,1 dBFS True Peak. Vor einer öffentlichen Veröffentlichung bleibt ein menschlicher Hörtest sinnvoll, weil Messwerte zwar Sprecherkontinuität, nicht aber vollständig den subjektiven Charme der Stimme beurteilen können.

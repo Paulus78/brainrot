@@ -1,0 +1,42 @@
+{
+  "episode_id": "pilot_002",
+  "title": "Bongo Popcorno",
+  "status": "final_candidate_exported",
+  "format": {
+    "aspect_ratio": "9:16",
+    "target_duration_seconds": 15,
+    "actual_duration_seconds": 14.959,
+    "resolution": "720x1280",
+    "frame_rate": 24
+  },
+  "character_reference": "assets/character_master/bongo_reference.png",
+  "flow": {
+    "project_url": "https://flow.google.com/project/7c7f34d6-0a9f-4b16-a532-9abf6e5dc741",
+    "voice_scene_url": "https://flow.google.com/project/7c7f34d6-0a9f-4b16-a532-9abf6e5dc741/edit/3a15847b-eeaa-49f9-846d-f9220c12ae3b",
+    "voice_model": "Omni 1.1 Flash",
+    "voice_takes_generated": 2,
+    "voice_credits_observed": 12
+  },
+  "accepted_units": [
+    "episodes/pilot_002/video_raw/accepted/hook_01_hybrid_v1.mp4",
+    "episodes/pilot_002/video_raw/accepted/banana_02_hybrid_v1.mp4",
+    "episodes/pilot_002/video_raw/accepted/taps_03_hybrid_v3.mp4",
+    "episodes/pilot_002/video_raw/accepted/payoff_04_hybrid_v2.mp4"
+  ],
+  "voice": {
+    "accepted_master": "episodes/pilot_002/audio/accepted/voice_master_v1.wav",
+    "line_1": "Bucketo.",
+    "line_1_final_region_seconds": [4.084, 4.591],
+    "line_2": "Bongo snacko.",
+    "line_2_final_region_seconds": [11.915, 12.763],
+    "voice_only_review": "output/pilot_002/pilot_002_voice_only_v1.wav",
+    "qc": "episodes/pilot_002/audio/voice_qc.md"
+  },
+  "final_output": {
+    "picture_cut": "output/pilot_002/pilot_002_picture_cut_v1.mp4",
+    "file": "output/pilot_002/pilot_002_final_v1.mp4",
+    "integrated_loudness_lufs": -20.5,
+    "true_peak_dbfs": -1.1,
+    "qc": "output/pilot_002/final_qc.md"
+  }
+}

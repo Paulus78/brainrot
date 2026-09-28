@@ -4,13 +4,11 @@ Produktionsprojekt für den vertikalen 3D-Cartoon-Piloten **„Bongo fixes a fan
 
 ## Aktueller Stand
 
-- Die überarbeitete V2-Fassung mit expliziter Ursache-Wirkung-Kette liegt unter `output/pilot_001/revision_v2/pilot_001_v2_final.mp4` vor.
-- Die kreative Nachprüfung bewertet V2 trotz besserer Kontinuität noch als zu statisch, zu schnell geschnitten und stimmlich nicht konsistent genug für eine Veröffentlichung.
-- Auch das handgehaltene Eimerschütteln und der zu schwache Ventilator-Hook gelten als nicht bestanden und werden nicht unverändert wiederverwendet.
-- Learnings, neue verbindliche Produktionsregeln und der empfohlene Plan für Episode 002 „Bongo Popcorno“ stehen in `docs/production_learnings_and_next_story.md`.
-- Beide Fassungen und alle akzeptierten sowie verworfenen Rohversuche bleiben als Produktionshistorie erhalten.
-- Für Episode 002 sind Masterprompt, Continuity-Tabelle und vier geprüfte Storyboard-Keyframes fertig. Der 15-Sekunden-Stummfilm-Animatic liegt unter `output/pilot_002/`.
-- Der Zustands- und Unterhaltungstest des Storyboards ist bestanden. Als nächstes wird ausschließlich der Zahn-PING-Hook in Veo als Bewegung prototypisiert; spätere Motion-Shots bleiben bis zu dessen Freigabe gesperrt.
+- Episode 001 bleibt als dokumentierter Lernstand erhalten; ihr schwacher Hook, das künstliche Eimerschütteln, die hektische Verdichtung und der Stimmenwechsel wurden für Episode 002 ausdrücklich nicht übernommen.
+- Episode 002 „Bongo Popcorno“ liegt als vollständiger 15-Sekunden-Finalkandidat unter `output/pilot_002/pilot_002_final_v1.mp4` vor.
+- Der neue Hook beginnt direkt mit dem Zahn-PING, der Eimer bleibt beim Ritual am Boden, drei Klopfer ersetzen das misslungene Schütteln und der Payoff erhält einen langen lesbaren Hold.
+- `Bucketo.` und `Bongo snacko.` stammen aus einer einzigen Flow-Aufnahme. Der zweite Stimmversuch wurde wegen eines erneuten Hochtonsprungs verworfen; der akzeptierte Mix bleibt zwischen den Zeilen innerhalb von 0,67 Halbtönen.
+- Alle akzeptierten und verworfenen Rohversuche, Prompts, Messungen und reproduzierbaren Schnittskripte bleiben als Produktionshistorie erhalten.
 
 Ausführliche Fortschritts- und Qualitätsinformationen stehen in:
 
@@ -21,6 +19,9 @@ Ausführliche Fortschritts- und Qualitätsinformationen stehen in:
 - `episodes/pilot_001/revision_v2/video_qc.md`
 - `episodes/pilot_002/status.md`
 - `episodes/pilot_002/storyboard_qc.md`
+- `episodes/pilot_002/picture_cut_qc.md`
+- `episodes/pilot_002/audio/voice_qc.md`
+- `output/pilot_002/final_qc.md`
 - `docs/production_learnings_and_next_story.md`
 - `episodes/pilot_001/episode.json`
 
@@ -34,9 +35,10 @@ Ausführliche Fortschritts- und Qualitätsinformationen stehen in:
 - `episodes/pilot_001/prompts/` – reproduzierbare Bild- und Stimm-Prompts
 - `episodes/pilot_001/qc/` – Qualitätsprüfungen und Entscheidungen
 - `episodes/pilot_001/revision_v2/` – überarbeitete Ursache-Wirkung-Fassung und V2-QC
-- `episodes/pilot_002/` – Popcorno-Planung, Continuity, Storyboard und QC
-- `output/pilot_001/` – aktuelle Vorschauen/Animatics
-- `src/edit/` – lokales Animatic-Skript
+- `episodes/pilot_002/` – Popcorno-Planung, Continuity, Storyboard, Audio und QC
+- `output/pilot_001/` – frühere Pilotfassungen
+- `output/pilot_002/` – Bildschnitt, Voice-only-Prüfung und finaler Kandidat
+- `src/edit/` – reproduzierbare Animatic-, Hybrid-, Analyse- und Finalschnitt-Skripte
 
 ## Auf einem anderen Rechner weiterarbeiten
 
