@@ -1,6 +1,6 @@
 # Bongo-Produktion — Learnings aus Pilot 001 und Plan für die nächste Story
 
-Stand: 2026-09-27
+Stand: 2026-09-28
 
 ## Ziel dieses Dokuments
 
@@ -163,6 +163,33 @@ Ziel: Das finale Bild bleibt mindestens 1,5 Sekunden lesbar und trägt die Point
 5. Die Stimme zuerst komplett solo anhören und erst nach bestandener Identitätsprüfung in den Videoschnitt legen.
 6. Geräusche: sofortiges klares Zahn-PING, hörbare Kornlandung, weicher Bananen-Plopp, drei steigende Eimerklopfer, kurze Stille, wachsendes Rumpeln, große Popcornfontäne, trockener letzter Knusperton.
 
+## Neue Erkenntnisse aus den Bewegungsprototypen von Episode 002
+
+### Kleine Objekttransfers bleiben trotz gesperrter Endbilder unzuverlässig
+
+Vier Veo-Versuche mit dem Maiskorn führten zu verlangsamtem Fall, Morphing, Wiederauftauchen oder Duplikaten. Der einzelne Transfer wurde erst eindeutig, als Zahnkontakt, Randzustand und leerer Eimer als kontrollierte Zustände mit festem Timing zusammengeschnitten wurden. Die Banane war wegen ihrer Größe besser verfolgbar, hinterließ aber im Rohclip einen sichtbaren Stielrest. Daraus folgt: brauchbare KI-Bewegung darf übernommen werden, ein fehlerhafter Endzustand jedoch nicht.
+
+### „Genau dreimal“ im Prompt garantiert keine drei sichtbaren Kontakte
+
+Beim ersten Klopfversuch winkte Bongo mit der Pfote, während der Eimer abhob und mehrfach hüpfte. Der Text war eindeutig, die generierte Körpermechanik trotzdem falsch. Zählbare Wiederholung wird deshalb nicht mehr nur sprachlich verlangt, sondern aus einem klar getrennten Bereitschafts- und Kontaktzustand aufgebaut. Die Kontaktphasen müssen durch vollständig freie Pfotenpositionen getrennt sein.
+
+### Kontrolle allein genügt nicht: harte Zustandswechsel können wieder langweilig wirken
+
+Der erste kontrollierte Klopfschnitt bestand zwar die Zähl- und Bodenprüfung, sah durch harte Sprünge jedoch mechanisch aus. Weiche Überblendkurven zwischen exakt denselben Zuständen lieferten mehr Fluss, ohne die Objektkontinuität aufzugeben. Die drei Kontaktpulse wurden bewusst länger statt schneller: klein, mittel, stark.
+
+### Eine korrekte Aktion braucht eine sichtbare emotionale Folge
+
+Die zweite kontrollierte Version hatte drei Klopfer, Pause und Rumpeln, aber Bongo reagierte nicht. Sie war logisch korrekt und trotzdem flach. Erst das verzögerte Zurückweichen, die eingezogenen Pfoten und die geweiteten Augen machen klar, dass der Eimer nun selbstständig lebt. Für jeden übernatürlichen Objektbeat gilt daher: Reaktion erst nach dem Auslöser, aber sichtbar genug, um dessen Bedeutung zu verstärken.
+
+### Aktueller belastbarer Stand
+
+- Zahn-PING-Hook: bestanden als kontrollierter Hybrid.
+- Banane in den Eimer: bestanden als Kombination aus verifizierter Veo-Bewegung und sauberem Endzustand.
+- Drei Klopfer plus Eigenrütteln: bestanden als Hybrid V3; Eimer bleibt durchgehend am Boden.
+- Finale Popcornfontäne: noch offen und jetzt der nächste Risikotest.
+
+Diese Ergebnisse bestätigen die Produktionsregel: generative Bewegung wird nur dort eingesetzt, wo sie nach Einzelbildprüfung physisch und erzählerisch besteht. Kritische Objektübergänge, exakte Wiederholungszahlen und Bodenhaftung werden deterministisch abgesichert.
+
 ## Produktionsplan für Episode 002
 
 ### Phase A — Story und Lesbarkeit
@@ -213,4 +240,4 @@ Episode 002 ist erst fertig, wenn alle folgenden Fragen mit Ja beantwortet werde
 
 ## Nächster konkreter Schritt
 
-Als nächstes werden für „Bongo Popcorno“ ein verbindlicher Masterprompt, eine Continuity-Tabelle und vier Storyboard-Prompts erstellt. Vor der ersten Videoerzeugung folgt ein Stummfilm-Animatic. So wird diesmal die Geschichte getestet, bevor Video- und Stimmaufwand entstehen.
+Als nächstes wird Prototype 04, die bananenförmige Popcornfontäne, erzeugt und framegenau geprüft. Sie muss sichtbar aus demselben Eimer entstehen, Bongo nicht unlesbar verdecken und mindestens 1,5 Sekunden in einem stabilen Schlussbild halten. Erst wenn dieser letzte Bildbeat besteht, werden die vier akzeptierten Einheiten zu einem Stummfilm-Rohschnitt verbunden; danach folgt die einmalig erzeugte Voice-Masteraufnahme.

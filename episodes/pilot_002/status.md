@@ -1,6 +1,6 @@
 # Pilot 002 — status
 
-Updated: 2026-09-27 (Europe/Berlin)
+Updated: 2026-09-28 (Europe/Berlin)
 
 ## Current state
 
@@ -18,7 +18,11 @@ Updated: 2026-09-27 (Europe/Berlin)
 - Prototype 01 Hybrid V1: PASS at `video_raw/accepted/hook_01_hybrid_v1.mp4`. It uses three locked states and deterministic timing instead of unreliable interpolation.
 - Prototype 02 raw Veo Attempt 01: rejected because a banana stem fragment remained visible inside the bucket.
 - Prototype 02 Hybrid V1: PASS at `video_raw/accepted/banana_02_hybrid_v1.mp4`; the verified release motion cuts to a clean empty-bucket hold before the stem error.
-- Prototype 03 Three taps and self-rumble: UNLOCKED and next in production.
+- Prototype 03 raw Veo Attempt 01: rejected because Bongo waved instead of tapping and the bucket floated/bounced off the floor.
+- Prototype 03 Hybrid V1: rejected because hard state cuts made the taps feel mechanical.
+- Prototype 03 Hybrid V2: structurally correct but rejected because Bongo did not react and the beat remained emotionally flat.
+- Prototype 03 Hybrid V3: PASS at `video_raw/accepted/taps_03_hybrid_v3.mp4`. It contains three increasing contacts, a clear silent pause, a planted self-rumble and a delayed startled reaction.
+- Prototype 04 Banana-popcorn payoff: UNLOCKED and next in production.
 - Final voice: NOT STARTED by design.
 
 ## Non-negotiable improvements over Pilot 001 V2
@@ -34,10 +38,10 @@ Updated: 2026-09-27 (Europe/Berlin)
 
 - Tooth-PING hook: PASS at storyboard level.
 - Same-character and same-bucket continuity: PASS within storyboard tolerance.
-- Planted bucket replacing the failed hand-held shake: PASS.
+- Planted bucket replacing the failed hand-held shake: PASS in accepted motion.
 - Large banana-popcorn payoff: PASS.
-- Silent cause-and-effect chain: PASS at state level; exact rim crossing and three taps remain motion gates.
+- Silent cause-and-effect chain through the ritual: PASS in motion; the final eruption remains the last visual gate.
 
 ## Next gate
 
-Produce Prototype 03 using the accepted planted-bucket tap frame. Exactly three paw contacts must be countable, followed by a clear pause and only then a self-rumble while the bucket stays flat on the floor. Reject any hand-held side-to-side shake or early bucket motion.
+Produce Prototype 04 from the accepted banana-popcorn payoff frame. The eruption must visibly originate inside the same planted yellow bucket, expand into one large readable fountain, keep Bongo's face visible and end on a stable hold of at least 1.5 seconds. Reject whole flying bananas, a second bucket, premature popcorn, obscured eyes or any payoff that appears through an unexplained cut.

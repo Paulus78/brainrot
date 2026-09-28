@@ -1,13 +1,13 @@
 # Pilot 002 — motion quality review
 
-Updated: 2026-09-27 (Europe/Berlin)
+Updated: 2026-09-28 (Europe/Berlin)
 
 | Prototype | State | Critical gate |
 | --- | --- | --- |
 | 01 Tooth-PING | PASS — HYBRID V1 | One kernel fully enters bucket by 0.71 s; bare right foot remains bare |
 | 02 Banana drop | PASS — HYBRID V1 | One intact banana crosses the rim; clean empty-bucket hold follows |
-| 03 Three taps | UNLOCKED | Three countable taps, pause, then planted self-rumble |
-| 04 Payoff | LOCKED | Only unlock after Prototypes 01–03 pass |
+| 03 Three taps | PASS — HYBRID V3 | Three countable contacts, pause, planted self-rumble and delayed reaction |
+| 04 Payoff | UNLOCKED | Eruption must visibly originate inside the same planted bucket |
 
 ## Attempt log
 
@@ -102,3 +102,47 @@ File: `video_raw/accepted/banana_02_hybrid_v1.mp4`
 - Readable hold: PASS — the empty-bucket confident-grin state holds for more than three seconds.
 - Speed policy: PASS — no source footage is accelerated.
 - Final verdict: accepted and Prototype 03 unlocked.
+
+### Prototype 03 Attempt 01 — Veo 3.1 Lite, 720p, 8 s — REJECT
+
+File: `video_raw/rejected/taps_03_attempt_01_veo_lite.mp4`
+
+- Technical file check: PASS — H.264/AAC, 720 × 1280, 24 fps, exactly 8.0 seconds.
+- Tap count: FAIL — Bongo waves the paw above the rim instead of making three readable contacts.
+- Planted-bucket lock: FAIL — the bucket lifts completely off the floor, floats and bounces repeatedly.
+- Pause and causality: FAIL — there is no clean sequence of three contacts, stillness and only then self-rumble.
+- Character lock: PASS in sampled frames — head peel, eye ring, tooth and single left sandal remain readable.
+- Final verdict: automatic reject. The clip repeats the exact hand-held/weightless movement problem this episode was designed to remove.
+
+### Prototype 03 Hybrid V1 — locked-state contacts, 720p, 4.25 s — REJECT
+
+File: `video_raw/rejected/taps_03_hybrid_v1_hard_cuts.mp4`
+
+- Count and bucket position: PASS.
+- Motion quality: FAIL — direct state cuts make the paw snap mechanically and recreate the rushed micro-clip feeling.
+- Final verdict: useful timing proof only; not accepted.
+
+### Prototype 03 Hybrid V2 — blended contacts, 720p, 4.25 s — REJECT
+
+File: `video_raw/rejected/taps_03_hybrid_v2_no_reaction.mp4`
+
+- Three contacts and increasing force: PASS.
+- Pause before rumble: PASS.
+- Planted-bucket lock: PASS.
+- Entertainment and cause/effect: PARTIAL — Bongo does not react to the self-rumble, so the final beat feels emotionally flat.
+- Final verdict: structurally correct but superseded by V3.
+
+### Prototype 03 Hybrid V3 — blended taps, delayed reaction and planted rumble, 720p, 4.25 s — PASS
+
+File: `video_raw/accepted/taps_03_hybrid_v3.mp4`
+
+- Technical file check: PASS — H.264/AAC, 720 × 1280, 24 fps, exactly 4.25 seconds.
+- Tap count: PASS — three individually readable paw-to-rim contacts occur at increasing visual durations.
+- Contact separation: PASS — the paw fully leaves the rim between all three contacts.
+- Comedy pause: PASS — more than half a second of complete stillness follows the strong third tap.
+- Self-rumble: PASS — vibration marks and the low rattle begin only after the pause.
+- Planted-bucket lock: PASS — the bucket never slides, tilts, lifts or enters Bongo's hands.
+- Character continuity: PASS — head peel, one tooth, blue right-eye ring, one left sandal and bare right foot remain present.
+- Reaction: PASS — Bongo retracts both paws and leans away only after the bucket begins to rattle.
+- Audio structure: PASS — three dry taps grow in force, followed by silence and one low rattle; no dialogue or music.
+- Final verdict: accepted and Prototype 04 unlocked.

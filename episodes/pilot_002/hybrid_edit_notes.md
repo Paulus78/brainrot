@@ -1,6 +1,6 @@
 # Pilot 002 — hybrid edit strategy
 
-Updated: 2026-09-27 (Europe/Berlin)
+Updated: 2026-09-28 (Europe/Berlin)
 
 ## Why the hook changed
 
@@ -38,3 +38,18 @@ Use Veo only for motions it can preserve under frame-level QC. For critical obje
 ## Banana-drop application
 
 The first banana motion candidate contained a good release and rim crossing but left a stem fragment visible inside the bucket. The accepted `banana_02_hybrid_v1.mp4` keeps the verified first 18 frames at normal speed and cuts to the cleaned empty-bucket state `frame_02c_post_drop_clean.png`. This preserves the useful motion without accepting the continuity error.
+
+## Three-tap application
+
+The first Veo candidate did not create three contacts. Bongo waved while the bucket lifted, floated and bounced, directly violating the planted-weight requirement. Two deterministic timing tests proved that locked states can solve the count but also exposed a creative problem: hard cuts feel mechanical, and accurate taps without a reaction still feel flat.
+
+The accepted `taps_03_hybrid_v3.mp4` uses these four frames:
+
+1. `frame_03a_ready_clean.png` — paw separated from the rim and no vibration marks.
+2. `frame_03b_tap_contact.png` — fingertips visibly press the near rim while the bucket remains fixed.
+3. `frame_03c_reaction_clean.png` — Bongo has withdrawn both paws and leans away after the pause.
+4. `frame_03d_reaction_rumble.png` — identical reaction and bucket position with bucket-only vibration marks.
+
+The edit blends the ready/contact states into three distinct pulses centered at approximately 0.33, 0.96 and 1.65 seconds. Their durations increase to communicate small, medium and strong force. A 0.56-second motionless gap follows. Only then does Bongo transition into the startled pose and the vibration marks pulse from approximately 2.80 to 3.33 seconds. The bucket position never changes. The matching audio has three increasing dry impacts, silence and one low plastic rattle.
+
+This is the preferred method for countable repeated contacts: lock the physical states, animate only the intended contact variable, preserve a real pause, then add a delayed character reaction. Do not accept technically countable motion if it still lacks emotional cause and effect.

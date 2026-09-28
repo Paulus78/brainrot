@@ -81,9 +81,13 @@ The bucket remains heavy and flat on the floor. Reconstruct exactly three separa
 
 Motion gate: three contacts are individually countable and the bucket's self-rumble begins only after the pause.
 
+### Production result
+
+The direct Veo attempt failed because the paw waved without three contacts and the bucket floated and bounced. Repeating the same generation would reproduce a known failure mode. The accepted `taps_03_hybrid_v3.mp4` therefore uses four continuity-locked states: clean ready pose, unmistakable rim contact, clean startled reaction and the same reaction with bucket-only vibration marks. Three smoothly blended contact pulses increase in duration, a 0.56-second still pause follows, then the vibration marks pulse while the bucket remains pixel-locked to the floor. Three rising dry taps, silence and a low rattle reinforce the same structure. Prototype 04 is unlocked.
+
 ## Prototype 04 — Banana-popcorn payoff
 
-Locked until Prototypes 01–03 pass.
+Unlocked after Hybrid Hook V1, Banana Drop Hybrid V1 and Three Taps Hybrid V3.
 
 Start image: `keyframes/frame_04_banana_popcorn_payoff.png`
 
