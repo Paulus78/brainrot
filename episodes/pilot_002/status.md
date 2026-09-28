@@ -25,6 +25,8 @@ Updated: 2026-09-28 (Europe/Berlin)
 - Prototype 04 Hybrid V1: rejected because the long dissolves created extended double contours around eyes and paws.
 - Prototype 04 Hybrid V2: PASS at `video_raw/accepted/payoff_04_hybrid_v2.mp4`. The eruption begins inside the bucket, grows into a large mound, preserves Bongos readable face and holds the final gag for more than 3.5 seconds.
 - All four visual motion prototypes: PASS.
+- Picture Cut V1: PASS at `output/pilot_002/pilot_002_picture_cut_v1.mp4`; 14.959 seconds, 720 × 1280, 24 fps, no black interval and no action acceleration.
+- Muted first-view story test: PASS; review copy stored at `output/pilot_002/pilot_002_picture_cut_v1_silent.mp4`.
 - Final voice: NOT STARTED by design.
 
 ## Non-negotiable improvements over Pilot 001 V2
@@ -46,4 +48,4 @@ Updated: 2026-09-28 (Europe/Berlin)
 
 ## Next gate
 
-Assemble the four accepted motion units into the first silent picture cut. Target approximately 15 seconds by trimming holds only; do not accelerate action. Verify the complete cause-and-effect chain at normal speed before generating final dialogue. After picture lock, create both Bongo lines in one uninterrupted voice session and reject any pitch change between them.
+Create both Bongo lines in one uninterrupted voice session and place them into Picture Cut V1. Use the same warm, dry, mid-low register for `Bucketo.` and `Bongo snacko.`; reject any high-pitched surprise voice, robotic cadence or resonance change. Then run the audio-only identity check and the final combined technical/creative QC.

@@ -190,6 +190,8 @@ Die zweite kontrollierte Version hatte drei Klopfer, Pause und Rumpeln, aber Bon
 
 Diese Ergebnisse bestätigen die Produktionsregel: generative Bewegung wird nur dort eingesetzt, wo sie nach Einzelbildprüfung physisch und erzählerisch besteht. Kritische Objektübergänge, exakte Wiederholungszahlen und Bodenhaftung werden deterministisch abgesichert.
 
+Der erste vollständige Bildschnitt bestätigt außerdem, dass das 15-Sekunden-Ziel ohne hektische Beschleunigung erreichbar ist. Die vier bestandenen Einheiten ergeben 14,959 Sekunden, wenn ausschließlich die langen Ergebnis-Holds von Hook und Bananenbeat gekürzt werden. Ritual und Payoff bleiben vollständig. In der stummen Übersicht ist die gesamte Ursache-Wirkung-Kette beim ersten Durchlauf nachvollziehbar; der visuell größte Gag erhält die längste ununterbrochene Lesbarkeit.
+
 ## Produktionsplan für Episode 002
 
 ### Phase A — Story und Lesbarkeit
@@ -240,4 +242,4 @@ Episode 002 ist erst fertig, wenn alle folgenden Fragen mit Ja beantwortet werde
 
 ## Nächster konkreter Schritt
 
-Als nächstes werden die vier bestandenen Einheiten zu einem etwa 15-sekündigen Stummfilm-Rohschnitt verbunden. Gekürzt werden ausschließlich Ruhephasen; keine Handlung wird beschleunigt. Wenn die vollständige Kette Zahn-PING → Korn im Eimer → Banane im Eimer → drei Klopfer → Pause → Eigenrütteln → Popcornfontäne bei normaler Geschwindigkeit ohne Erklärung verständlich ist, folgt die einmalig erzeugte Voice-Masteraufnahme für „Bucketo.“ und „Bongo snacko.“.
+Der Bildschnitt ist bestanden. Als nächstes folgt die einmalig erzeugte Voice-Masteraufnahme für „Bucketo.“ und „Bongo snacko.“. Beide Zeilen müssen in derselben mitteltiefen, warmen, trockenen Stimme innerhalb einer Session entstehen. Anschließend wird zuerst nur die Sprachspur auf Identität und Natürlichkeit geprüft und erst danach mit dem Bildschnitt verbunden.
