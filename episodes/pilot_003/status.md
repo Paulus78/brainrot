@@ -2,7 +2,7 @@
 
 ## Current decision
 
-`pilot_002_final_v1.mp4` remains a rejected motion proof. Pilot 003 is a full Veo motion rebuild, not another image-blend edit.
+`pilot_002_final_v1.mp4` remains a rejected motion proof. Pilot 003 V1 is also rejected: it improved motion inside shots but failed continuity and sound across the complete sequence.
 
 The story was simplified after the user's motion feedback and a review of current fruit/brainrot short-form patterns:
 
@@ -21,8 +21,9 @@ The story was simplified after the user's motion feedback and a review of curren
 - [x] Hook accepted after motion QC: reference-mode variant B.
 - [x] Slam accepted after motion QC: reference-mode variant A.
 - [x] Payoff accepted after motion QC: reference-mode variant B.
-- [x] Consistent final voice and Veo foley mixed; only the accepted `Bongo snacko.` line is used.
-- [x] 1080x1920 V1 master assembled and reviewed.
+- [ ] Final sound design rebuilt from separate stems after picture lock.
+- [x] 1080x1920 V1 master assembled and technically reviewed.
+- [ ] Complete creative review passed. V1 is currently rejected.
 
 ## Non-negotiable QC gates
 
@@ -43,4 +44,4 @@ The first two slam variants also produced real continuous motion. Variant A is s
 
 Payoff variant B is accepted on the first two-output run. Its warning pop, lean-in, expanding fountain, burial, re-emergence and bite form one readable continuous action. Variant A has a strong geyser but a confusing blue-sandal shape near the pile, so it remains only an alternate.
 
-The completed V1 uses three long action units at a mild 1.08× pace and runs 19.96 seconds. It passes the silent cause-and-effect review and technical checks. Small independent-shot continuity differences remain documented in `qc/final_qc.md`, but the result is now a real moving brainrot short rather than a slideshow proof.
+The completed V1 uses three long action units at a mild 1.08× pace and runs 19.96 seconds. It passes technical checks but fails the creative review. The two cuts reset camera, background, Bongo pose, bucket geometry and object state. The native Veo audio beds also change abruptly. The replacement process is documented in `docs/postmortem_pilot_003_and_process_v4.md`.

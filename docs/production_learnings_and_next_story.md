@@ -258,10 +258,10 @@ The Pilot 002 idea remained funny, but the tiny kernel fall and three bucket tap
 - Do not pair anchors merely because each looks attractive. Start and end must depict the same camera, scale, props and scene state. If that cannot be guaranteed, Bongo's original image works better as an identity-only Veo element.
 - Efficient default: generate two Veo Fast variants from the same simple single-action prompt, select one, and reserve only one targeted retry. This is cheaper in attention and faster than repeatedly rebuilding keyframes.
 
-## Pilot 003 result: the reference-only Veo process works
+## Pilot 003 result: independent reference-only scenes do not form a continuous film
 
-Pilot 003 validated the faster production route. Each scene used the original Bongo portrait only for character identity, while Veo staged one complete physical action from text. Two variants were generated in parallel. Contact-sheet review selected Hook B, Slam A and Payoff B; no third attempt was needed.
+Pilot 003 proved that Bongo's portrait can guide identity and that Veo can produce better motion inside a single shot. It did **not** validate the full production route. The three selected clips were created independently, so camera, background, bucket geometry, object state and native audio reset at both cuts.
 
-The resulting 19.96-second V1 contains three long continuous motion units instead of many short illustrative clips. The hook starts directly on an absurd giant cob, the failed bucket shake was replaced by one readable full-body slam, and the payoff is a genuine moving popcorn geyser. Slight garage and bucket variations remain between independent generations, but those defects are less damaging than broken movement or a confusing story chain.
+The earlier contact-sheet review was too local. It selected Hook B, Slam A and Payoff B based on movement inside each clip, but it did not judge the joins as part of one real-time audiovisual sequence. The resulting 19.96-second V1 is therefore rejected despite technically correct encoding and stronger individual animation.
 
-For future episodes, the production priority is therefore: strong first-frame premise, one broad action per scene, two reference-mode variants, motion QC before selection, and a simple edit that preserves the successful generated movement. Do not spend time creating separate first/last frames unless both anchors are demonstrably the same scene and composition.
+For future episodes, the production priority is: one approved canonical world, one base Veo clip, continuation through Flow scene extension, silent picture lock, then sound rebuilt from separate ambience, Foley, hard-effect and voice stems. Full details and measured cut failures are in `docs/postmortem_pilot_003_and_process_v4.md`.

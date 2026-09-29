@@ -4,7 +4,9 @@ Reviewed: 2026-09-29 (Europe/Berlin)
 
 ## Verdict
 
-`output/pilot_003/pilot_003_bananacorno_v1.mp4` is the first complete Pilot 003 video and is accepted as a **good working master**, not a perfect continuity master.
+`output/pilot_003/pilot_003_bananacorno_v1.mp4` is **rejected after full-sequence user review**. The earlier working-master verdict was incorrect. Individual clips contain continuous motion, but both joins break scene, prop and camera continuity, while the three native Veo sound beds do not form one coherent soundtrack.
+
+The detailed postmortem and replacement workflow are in `docs/postmortem_pilot_003_and_process_v4.md`.
 
 ## What now works
 
@@ -16,12 +18,13 @@ Reviewed: 2026-09-29 (Europe/Berlin)
 - The three longer action units remain readable and do not feel like a rapid slideshow.
 - Only the accepted, pitch-consistent `Bongo snacko.` line is used. No high `perfecto` voice remains.
 
-## Known limitations accepted for V1
+## Disqualifying failures
 
-- The garage dressing and bucket geometry vary slightly between independently generated Veo shots.
-- The accepted slam begins with a few kernels already visible near the bucket opening. This is not literal continuity, but it foreshadows the pressure inside and improves readability.
+- The garage dressing, camera distance and bucket geometry change visibly at both cuts.
+- The accepted slam begins with a full bucket immediately after the previous clip ended with a different empty bucket.
 - The hook's giant cob inherits a banana-like peel at the top. It remains instantly readable as absurd brainrot food and does not obscure the cause-and-effect chain.
-- There is no spoken slam word; the generated impact sound carries that beat. This avoids introducing a second, mismatched vocal delivery.
+- The independently generated sound beds change texture and meaning at the cuts; global normalization does not repair them.
+- The second join begins with popcorn already visible, so the payoff starts before its cause has been clearly presented.
 
 ## Technical checks
 
@@ -36,4 +39,4 @@ Reviewed: 2026-09-29 (Europe/Berlin)
 
 ## Process decision
 
-The efficient default is now validated: one identity reference, one main action per prompt, two Veo Fast variants in parallel, frame/contact-sheet review, and only a diagnosed third attempt if both fail. Pilot 003 needed no third attempts for any accepted scene.
+The independent reference-only scene process is not validated for multi-shot continuity. Future work must use one approved canonical world, one base clip and Flow scene extension. Native clip audio must be muted and rebuilt from separate ambience, Foley, hard effects and voice tracks after picture lock.
