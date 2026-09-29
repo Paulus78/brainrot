@@ -2,7 +2,9 @@
 
 Updated: 2026-09-28 (Europe/Berlin)
 
-Final candidate: `output/pilot_002/pilot_002_final_v1.mp4`
+Reviewed file: `output/pilot_002/pilot_002_final_v1.mp4`
+
+Release status updated 2026-09-29: **REJECTED FOR MOTION FLUIDITY**. The earlier technical pass remains valid, but the file is now classified as a motion/story proof rather than a final episode.
 
 ## Technical result
 
@@ -33,4 +35,4 @@ Final candidate: `output/pilot_002/pilot_002_final_v1.mp4`
 
 ## Final verdict
 
-**TECHNICAL PASS / CREATIVE FINAL CANDIDATE.** The video is ready for a human listening pass. If the perceived character voice still feels artificial, replace only the single voice master; the accepted visual cut and exact dialogue placements do not need to be rebuilt.
+**TECHNICAL PASS / CREATIVE MOTION FAIL.** The story, timing, object continuity and accepted voice master remain useful, but the blend-based pose changes are not sufficiently fluid for publication. Rebuild the four motion units according to `episodes/pilot_002/motion_rebuild_v2.md`; do not try to hide the problem with more cross-dissolves or sound design.

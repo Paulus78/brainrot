@@ -1,7 +1,7 @@
 {
   "episode_id": "pilot_002",
   "title": "Bongo Popcorno",
-  "status": "final_candidate_exported",
+  "status": "motion_proof_rejected_for_fluidity",
   "format": {
     "aspect_ratio": "9:16",
     "target_duration_seconds": 15,
@@ -32,11 +32,13 @@
     "voice_only_review": "output/pilot_002/pilot_002_voice_only_v1.wav",
     "qc": "episodes/pilot_002/audio/voice_qc.md"
   },
-  "final_output": {
+  "motion_proof": {
     "picture_cut": "output/pilot_002/pilot_002_picture_cut_v1.mp4",
     "file": "output/pilot_002/pilot_002_final_v1.mp4",
     "integrated_loudness_lufs": -20.5,
     "true_peak_dbfs": -1.1,
-    "qc": "output/pilot_002/final_qc.md"
+    "qc": "output/pilot_002/final_qc.md",
+    "release_status": "rejected_for_motion_fluidity",
+    "rebuild_plan": "episodes/pilot_002/motion_rebuild_v2.md"
   }
 }

@@ -5,7 +5,7 @@ Produktionsprojekt für den vertikalen 3D-Cartoon-Piloten **„Bongo fixes a fan
 ## Aktueller Stand
 
 - Episode 001 bleibt als dokumentierter Lernstand erhalten; ihr schwacher Hook, das künstliche Eimerschütteln, die hektische Verdichtung und der Stimmenwechsel wurden für Episode 002 ausdrücklich nicht übernommen.
-- Episode 002 „Bongo Popcorno“ liegt als vollständiger 15-Sekunden-Finalkandidat unter `output/pilot_002/pilot_002_final_v1.mp4` vor.
+- Episode 002 „Bongo Popcorno“ liegt als verständlicher 15-Sekunden-Motion-Proof unter `output/pilot_002/pilot_002_final_v1.mp4` vor, ist aber wegen unzureichend flüssiger, blend-basierter Bewegung ausdrücklich noch kein veröffentlichungsfähiges Endvideo.
 - Der neue Hook beginnt direkt mit dem Zahn-PING, der Eimer bleibt beim Ritual am Boden, drei Klopfer ersetzen das misslungene Schütteln und der Payoff erhält einen langen lesbaren Hold.
 - `Bucketo.` und `Bongo snacko.` stammen aus einer einzigen Flow-Aufnahme. Der zweite Stimmversuch wurde wegen eines erneuten Hochtonsprungs verworfen; der akzeptierte Mix bleibt zwischen den Zeilen innerhalb von 0,67 Halbtönen.
 - Alle akzeptierten und verworfenen Rohversuche, Prompts, Messungen und reproduzierbaren Schnittskripte bleiben als Produktionshistorie erhalten.
@@ -21,6 +21,7 @@ Ausführliche Fortschritts- und Qualitätsinformationen stehen in:
 - `episodes/pilot_002/storyboard_qc.md`
 - `episodes/pilot_002/picture_cut_qc.md`
 - `episodes/pilot_002/audio/voice_qc.md`
+- `episodes/pilot_002/motion_rebuild_v2.md`
 - `output/pilot_002/final_qc.md`
 - `docs/production_learnings_and_next_story.md`
 - `episodes/pilot_001/episode.json`

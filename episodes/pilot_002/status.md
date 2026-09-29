@@ -28,7 +28,7 @@ Updated: 2026-09-28 (Europe/Berlin)
 - Picture Cut V1: PASS at `output/pilot_002/pilot_002_picture_cut_v1.mp4`; 14.959 seconds, 720 × 1280, 24 fps, no black interval and no action acceleration.
 - Muted first-view story test: PASS; review copy stored at `output/pilot_002/pilot_002_picture_cut_v1_silent.mp4`.
 - Final voice: PASS. Both lines were generated in one uninterrupted Google Flow Omni 1.1 Flash take in Chrome. Take 1 was accepted; Take 2 was rejected after it raised the second line by 4.11 semitones and added an unwanted trailing sound.
-- Final Candidate V1: READY at `output/pilot_002/pilot_002_final_v1.mp4`; 14.959 seconds, 720 × 1280, 24 fps, -20.5 LUFS and -1.1 dBFS true peak.
+- Motion Proof V1: technically valid at `output/pilot_002/pilot_002_final_v1.mp4`, but **REJECTED as the publishable final result** on 2026-09-29. The state-based hybrid animation is understandable but not fluid enough and reads as a moving storyboard.
 - Voice-only review: READY at `output/pilot_002/pilot_002_voice_only_v1.wav`.
 
 ## Non-negotiable improvements over Pilot 001 V2
@@ -49,8 +49,9 @@ Updated: 2026-09-28 (Europe/Berlin)
 - Silent cause-and-effect chain from tooth impact through final mound: PASS in motion.
 - Same-voice identity across both final lines: PASS by one-session source, +0.67-semitone final median difference and 0.07 dB final level difference.
 - Dialogue placement on completed visual beats: PASS.
-- Combined technical export: PASS.
+- Combined technical export: PASS as a proof file, not sufficient for creative release.
+- Natural continuous motion across the episode: FAIL. Real in-between animation, physical follow-through and motion-connected edits are still required.
 
 ## Next gate
 
-Run one human listening pass on `output/pilot_002/pilot_002_final_v1.mp4`, concentrating only on perceived naturalness and comic character. The visual story, timing, voice identity and technical export are already locked. If a future voice take is preferred, replace only the single master in `episodes/pilot_002/audio/accepted/` and rebuild with `src/edit/build_episode_002_final.sh`.
+Execute the continuous-motion rebuild defined in `motion_rebuild_v2.md`. Preserve the story, final composition and accepted voice master, but replace the state-blend motion units with true Veo animation. A new picture cut must pass the motion, weight and flow gates before the existing voice master is placed again.
