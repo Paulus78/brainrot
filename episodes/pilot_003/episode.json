@@ -1,0 +1,46 @@
+{
+  "id": "pilot_003",
+  "title": "Bongo Bananacorno",
+  "format": {
+    "aspect_ratio": "9:16",
+    "target_duration_seconds": 13,
+    "resolution": "1080x1920"
+  },
+  "status": "veo_motion_generation",
+  "premise": "Bongo bites one oversized banana-corn hybrid, loses it into the smiley bucket, slams the bucket once, and triggers a banana-popcorn eruption.",
+  "dialogue": [
+    {
+      "text": "BANGA!",
+      "target_time_seconds": 6.2,
+      "delivery": "short, chesty, comic impact shout"
+    },
+    {
+      "text": "Bongo snacko.",
+      "target_time_seconds": 11.6,
+      "delivery": "dry, pleased, same voice and pitch"
+    }
+  ],
+  "shots": [
+    {
+      "id": "01_hook",
+      "target_edit_range": "0.0-4.2",
+      "action": "Bongo bites the oversized banana-corn hybrid; his tooth pings; the complete object springs free and visibly falls into the bucket."
+    },
+    {
+      "id": "02_slam",
+      "target_edit_range": "4.2-7.6",
+      "action": "Bongo crouches, raises both arms and performs one forceful double-palm bucket slam with contact, compression, recoil and settle."
+    },
+    {
+      "id": "03_payoff",
+      "target_edit_range": "7.6-13.0",
+      "action": "A short suspense beat becomes a continuous banana-popcorn eruption that buries Bongo; he emerges and tastes one piece."
+    }
+  ],
+  "generation_policy": {
+    "primary_model": "Veo 3.1 Fast",
+    "resolution": "720p",
+    "max_attempts_per_shot": 3,
+    "acceptance_rule": "Accept only real in-between motion with readable cause and effect; do not rescue pose dissolves as final motion."
+  }
+}

@@ -245,3 +245,13 @@ Episode 002 ist erst fertig, wenn alle folgenden Fragen mit Ja beantwortet werde
 Die Voice-Masteraufnahme wurde in Google Chrome als ein zusammenhängender Flow-Take erzeugt. Von zwei Kandidaten wurde Take 1 akzeptiert: Seine beiden Zeilen unterscheiden sich im Rohmaterial nur um 0,95 Halbtöne. Take 2 wurde konsequent verworfen, weil „Bongo snacko“ um 4,11 Halbtöne höher lag und ein ungewolltes Schlussgeräusch enthielt. Nach rein statischer Pegelanpassung liegen die final eingesetzten Zeilen nur 0,67 Halbtöne und 0,07 dB auseinander; es wurde weder zeitgestreckt noch die Tonhöhe verändert.
 
 Der vollständige Motion-Proof liegt unter `output/pilot_002/pilot_002_final_v1.mp4`. Das technische QC besteht bei 14,959 Sekunden, 720 × 1280, 24 fps, -20,5 LUFS und -1,1 dBFS True Peak. Die kreative Nachprüfung vom 29. September lehnt ihn dennoch als Endvideo ab: Die aus wenigen Zustandsbildern gebauten Überblendungen sichern zwar Objekte und Story, ergeben aber keine glaubwürdige kontinuierliche Animation. Das Ergebnis wirkt deshalb wie ein bewegtes Storyboard. Der verbindliche Neuaufbau steht in `episodes/pilot_002/motion_rebuild_v2.md`; Story, Voice-Master und finale Komposition bleiben erhalten, während alle vier Bewegungsabschnitte mit echten Veo-Zwischenbewegungen neu entstehen müssen.
+# 2026-09-29 — Pilot 003 direction: fewer steps, larger readable motion
+
+The Pilot 002 idea remained funny, but the tiny kernel fall and three bucket taps looked like a sequence of posed images instead of a performed action. The next build changes the production grammar:
+
+- Tiny props are a poor causal carrier in a phone-sized 9:16 frame. Use one oversized banana-corn hybrid with a clear silhouette.
+- A counted three-tap ritual creates avoidable model and edit discontinuities. One forceful full-body slam is funnier and easier to read.
+- Start/end anchors are useful only as constraints. Final motion must come from Veo-generated in-between frames, not dissolves between anchors.
+- Each scene gets one initial Veo attempt and up to two diagnosed retries. Do not spend retries without identifying the specific failure.
+- The final cut should contain three longer motion units with action-connected cuts, not many short illustrative clips.
+- The voice remains sparse and consistent: one impact word and one dry payoff line.
