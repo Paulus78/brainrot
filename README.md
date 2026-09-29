@@ -24,6 +24,8 @@ Ausführliche Fortschritts- und Qualitätsinformationen stehen in:
 - `episodes/pilot_002/motion_rebuild_v2.md`
 - `output/pilot_002/final_qc.md`
 - `docs/production_learnings_and_next_story.md`
+- `docs/postmortem_pilot_003_and_process_v4.md`
+- `docs/pipeline_phase0_audit.md`
 - `episodes/pilot_001/episode.json`
 
 ## Projektstruktur
