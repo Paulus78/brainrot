@@ -255,3 +255,13 @@ The Pilot 002 idea remained funny, but the tiny kernel fall and three bucket tap
 - Each scene gets one initial Veo attempt and up to two diagnosed retries. Do not spend retries without identifying the specific failure.
 - The final cut should contain three longer motion units with action-connected cuts, not many short illustrative clips.
 - The voice remains sparse and consistent: one impact word and one dry payoff line.
+- Do not pair anchors merely because each looks attractive. Start and end must depict the same camera, scale, props and scene state. If that cannot be guaranteed, Bongo's original image works better as an identity-only Veo element.
+- Efficient default: generate two Veo Fast variants from the same simple single-action prompt, select one, and reserve only one targeted retry. This is cheaper in attention and faster than repeatedly rebuilding keyframes.
+
+## Pilot 003 result: the reference-only Veo process works
+
+Pilot 003 validated the faster production route. Each scene used the original Bongo portrait only for character identity, while Veo staged one complete physical action from text. Two variants were generated in parallel. Contact-sheet review selected Hook B, Slam A and Payoff B; no third attempt was needed.
+
+The resulting 19.96-second V1 contains three long continuous motion units instead of many short illustrative clips. The hook starts directly on an absurd giant cob, the failed bucket shake was replaced by one readable full-body slam, and the payoff is a genuine moving popcorn geyser. Slight garage and bucket variations remain between independent generations, but those defects are less damaging than broken movement or a confusing story chain.
+
+For future episodes, the production priority is therefore: strong first-frame premise, one broad action per scene, two reference-mode variants, motion QC before selection, and a simple edit that preserves the successful generated movement. Do not spend time creating separate first/last frames unless both anchors are demonstrably the same scene and composition.
