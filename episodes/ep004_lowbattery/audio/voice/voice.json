@@ -1,0 +1,42 @@
+{
+  "preset": "A",
+  "voice": "es-MX-JorgeNeural",
+  "semitone_shift": 8.0,
+  "lines": {
+    "l1_no": {
+      "text": "Bongo... no.",
+      "pitch": "+55Hz",
+      "rate": "+0%",
+      "file": "episodes/ep004_lowbattery/audio/voice/l1_no.wav",
+      "dur": 0.524
+    },
+    "l2_bucketo": {
+      "text": "Bongo bucketo.",
+      "pitch": "+75Hz",
+      "rate": "+12%",
+      "file": "episodes/ep004_lowbattery/audio/voice/l2_bucketo.wav",
+      "dur": 0.407
+    },
+    "l3_banga": {
+      "text": "Bongo banga banga!",
+      "pitch": "+85Hz",
+      "rate": "+30%",
+      "file": "episodes/ep004_lowbattery/audio/voice/l3_banga.wav",
+      "dur": 0.456
+    },
+    "l4_perfecto": {
+      "text": "Bongo... perfecto.",
+      "pitch": "+65Hz",
+      "rate": "-8%",
+      "file": "episodes/ep004_lowbattery/audio/voice/l4_perfecto.wav",
+      "dur": 0.723
+    },
+    "l5_fixo": {
+      "text": "Bongo fixo.",
+      "pitch": "+45Hz",
+      "rate": "+8%",
+      "file": "episodes/ep004_lowbattery/audio/voice/l5_fixo.wav",
+      "dur": 0.373
+    }
+  }
+}

@@ -11,3 +11,10 @@ config.yaml
 *.tmp
 *.partial
 *.download
+
+# Zwischendateien des Schnitts und Abhaengigkeiten (lassen sich neu erzeugen)
+episodes/*/tmp*/
+node_modules/
+work/
+gen/_*.jpg
+v3d/bongo3d/renders/chartest_draft*.mp4
