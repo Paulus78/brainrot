@@ -1,0 +1,15 @@
+<!doctype html><meta charset="utf-8"><title>recv</title><body>recv<pre id="o"></pre><script>
+// Liest Bilder (base64) aus window.name und speichert sie ueber den lokalen Server in gen/inbox.
+(async () => {
+  const o = document.getElementById('o'); window.__done = [];
+  let items = [];
+  try { items = JSON.parse(window.name || '[]'); } catch (e) { o.textContent = 'kein JSON in window.name (' + (window.name || '').length + ')'; return; }
+  for (const it of items) {
+    const bin = atob(it.b64); const u = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
+    const r = await fetch('/save?name=' + encodeURIComponent(it.name), { method: 'POST', body: u });
+    window.__done.push(it.name + ' ' + u.length + ' ' + r.status); o.textContent += it.name + ' ' + r.status + '\n';
+  }
+  window.name = ''; window.__finished = true;
+})();
+</script>
