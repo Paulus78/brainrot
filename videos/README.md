@@ -14,8 +14,9 @@ Die jeweils neueste Fassung jeder Folge liegt direkt in diesem Ordner, ältere F
 | `08_ep008_banga_dark_magico.mp4` | Zauberstab-Folge mit Schlange | Flow |
 | `09_ep009_bongo_brainrot.mp4` | Banga operiert Bongos Gehirn | Flow, lippensynchron |
 | `10_ep010_bongo_papa.mp4` | Schwangerschaft, roter Eimer, Königin | Flow, lippensynchron |
+| `11_ep011_bongo_rich.mp4` | Banga wirft Bongo raus, Bongo wird reich | Flow, Stimmen direkt im Clip |
 
 - `aeltere_fassungen/` – frühere Schnittfassungen derselben Folgen
 - `tests/` – Figuren-, Stimm- und Techniktests
 
-Die Schnittskripte stehen in `tools/edit_all.py`, die Rohclips in `episodes/<folge>/clips`.
+Die Schnittskripte stehen in `tools/edit_all.py` (ab Folge 11: `tools/native_edit.py`), die Rohclips in `episodes/<folge>/clips`.
