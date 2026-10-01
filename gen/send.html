@@ -1,0 +1,15 @@
+<!doctype html><meta charset="utf-8"><title>send</title><body>send<pre id="o"></pre><script>
+// Laedt Dateien vom lokalen Server (?files=a.jpg,b.jpg relativ zu /) und legt sie als base64 in window.name,
+// damit eine andere Seite im selben Tab sie auslesen kann (Gegenstueck zu recv.html).
+(async () => {
+  const o = document.getElementById('o');
+  const files = (new URLSearchParams(location.search).get('files') || '').split(',').filter(Boolean);
+  const items = [];
+  for (const f of files) {
+    const b = await (await fetch('/' + f)).blob();
+    const b64 = await new Promise(res => { const fr = new FileReader(); fr.onload = () => res(fr.result.split(',')[1]); fr.readAsDataURL(b); });
+    items.push({ name: f.split('/').pop(), type: b.type || 'image/jpeg', b64 }); o.textContent += f + ' ' + b.size + '\n';
+  }
+  window.name = JSON.stringify(items); window.__finished = true; o.textContent += 'fertig ' + items.length;
+})();
+</script>
