@@ -9,7 +9,7 @@ d = sys.argv[1]; files = sorted(glob.glob(f'{d}/*.mp4')); m = WhisperModel('smal
 strips = []
 for p in files:
     j = p[:-4] + '.jpg'
-    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', p, '-vf', 'fps=2,scale=180:-1,tile=16x1', '-frames:v', '1', j])
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', p, '-vf', 'fps=2,scale=180:-1,tile=20x1', '-frames:v', '1', j])
     strips.append((os.path.basename(p)[:-4], Image.open(j)))
     x, sr = f0.load_mono(p); hop = int(0.1 * sr); n_ = int(0.04 * sr); line = []
     for i in range(0, len(x) - n_, hop):
